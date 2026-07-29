@@ -7,7 +7,7 @@
   /* ---- CONFIG: العميل يعدّل هذه القيم | client edits these ---- */
   window.RUWWAD = window.RUWWAD || {
     whatsapp: '966543225519',                 // رقم واتساب بصيغة دولية بدون +
-    phoneDisplay: '+966 54 322 5519',
+    phoneDisplay: '0543225519',
     email: 'info@rowadlaser.com',
     city: { ar: 'جدة، المملكة العربية السعودية', en: 'Jeddah, Saudi Arabia' }
   };
@@ -108,7 +108,12 @@
     });
     document.querySelectorAll('[data-tel]').forEach(function (a) { a.href = 'tel:+' + wa; });
     document.querySelectorAll('[data-mail]').forEach(function (a) { a.href = 'mailto:' + window.RUWWAD.email; });
-    document.querySelectorAll('[data-phone-text]').forEach(function (el) { el.textContent = window.RUWWAD.phoneDisplay; });
+    document.querySelectorAll('[data-phone-text]').forEach(function (el) {
+      el.textContent = window.RUWWAD.phoneDisplay;
+      el.setAttribute('dir', 'ltr');                 // منع انعكاس الرقم في الوضع RTL
+      el.style.unicodeBidi = 'isolate';
+      el.style.display = 'inline-block';
+    });
     document.querySelectorAll('[data-mail-text]').forEach(function (el) { el.textContent = window.RUWWAD.email; });
 
     /* contact form → compose WhatsApp message (works without a backend) */
