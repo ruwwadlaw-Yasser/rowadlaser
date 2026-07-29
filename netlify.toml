@@ -1,0 +1,27 @@
+# إعدادات النشر على Netlify — لا تحتاج تعديل غالباً
+[build]
+  publish = "."
+
+# تخزين مؤقت طويل للخطوط والصور (تسريع التحميل للزوار المتكررين)
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/logos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# رؤوس حماية أساسية
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
