@@ -246,12 +246,11 @@ h2.h-section { font-size:clamp(2rem, 4.6vw, 3.3rem); font-weight:900; letter-spa
 
 /* ---------- Gallery (premium neutral placeholders) ---------- */
 .gallery { display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(12px,1.6vw,18px); }
-.shot { position:relative; border-radius:var(--r); overflow:hidden; aspect-ratio:4/3; border:1px solid var(--line); display:grid; place-items:center; background:var(--paper-2); }
-.shot .ph { position:absolute; inset:0; background:
-    radial-gradient(120% 100% at 30% 0%, #ffffff, rgba(255,255,255,0) 55%),
-    linear-gradient(135deg, #eef1f5 0%, #d9dee5 48%, #c3cad3 100%); }
-.shot .ph::after { content:""; position:absolute; inset:0; background:linear-gradient(115deg, transparent 42%, rgba(255,255,255,.55) 50%, transparent 58%); }
-.shot .label { position:relative; z-index:2; color:var(--ink); font-family:var(--font-head); font-weight:700; background:rgba(255,255,255,.78); backdrop-filter:blur(6px); padding:8px 16px; border-radius:var(--r-pill); font-size:.88rem; border:1px solid rgba(255,255,255,.7); box-shadow:var(--sh-1); }
+.shot { position:relative; border-radius:var(--r); overflow:hidden; aspect-ratio:4/3; border:1px solid var(--line); display:grid; place-items:end center; background:var(--paper-2); box-shadow:var(--sh-1); }
+.shot .shot-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s cubic-bezier(.2,.7,.2,1); }
+.shot::after { content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(15,18,22,.42) 0%, rgba(15,18,22,.06) 42%, transparent 70%); z-index:1; pointer-events:none; }
+.shot:hover .shot-img { transform:scale(1.06); }
+.shot .label { position:relative; z-index:2; margin-bottom:14px; color:var(--ink); font-family:var(--font-head); font-weight:700; background:rgba(255,255,255,.86); backdrop-filter:blur(6px); padding:8px 16px; border-radius:var(--r-pill); font-size:.88rem; border:1px solid rgba(255,255,255,.7); box-shadow:var(--sh-1); }
 
 /* ---------- Testimonials ---------- */
 .quote { background:var(--paper); border:1px solid var(--line); border-radius:var(--r-lg); padding:clamp(24px,3vw,32px); transition:transform .25s, box-shadow .25s; }
