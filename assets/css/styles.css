@@ -490,3 +490,22 @@ ul.bullets li::before { content:""; position:absolute; inset-inline-start:2px; t
 @media (max-width:1024px) { .uses { grid-template-columns:repeat(2,1fr); } .facts { grid-template-columns:repeat(2,1fr); } }
 @media (max-width:900px) { .lp-grid { grid-template-columns:1fr; } .lp-shot { order:-1; max-width:520px; margin-inline:auto; } }
 @media (max-width:560px) { .uses { grid-template-columns:1fr; } }
+
+/* ---------- Spec tables (صفحات الخدمات) ---------- */
+.table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:var(--r); background:var(--paper); box-shadow:var(--sh-1); -webkit-overflow-scrolling:touch; }
+.spec-table { width:100%; border-collapse:collapse; font-size:.97rem; min-width:520px; }
+.spec-table th, .spec-table td { padding:14px 18px; text-align:start; border-bottom:1px solid var(--line); vertical-align:top; }
+.spec-table thead th { background:var(--paper-2); font-family:var(--font-head); font-weight:800; font-size:.92rem; color:var(--ink); letter-spacing:-0.01em; white-space:nowrap; }
+.spec-table tbody th { font-family:var(--font-head); font-weight:700; color:var(--ink); }
+.spec-table tbody td { color:var(--muted); line-height:1.6; }
+.spec-table tbody tr:last-child th, .spec-table tbody tr:last-child td { border-bottom:0; }
+.spec-table tbody tr:hover { background:var(--paper-2); }
+a.chip { transition:border-color .2s, color .2s, background .2s; }
+a.chip:hover { border-color:var(--ink); color:var(--ink); background:var(--paper); }
+.lp-hero a.chip:hover, .band-dark a.chip:hover { border-color:rgba(255,255,255,.4); color:#fff; }
+
+/* مسار التنقل على الشاشات الصغيرة — أكثر إحكاماً */
+@media (max-width:560px) {
+  .crumbs { flex-wrap:wrap; row-gap:2px; gap:6px; font-size:.78rem; }
+  .crumbs svg { width:12px; height:12px; }
+}

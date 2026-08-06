@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://rowadlaser.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://rowadlaser.com/services.html</loc><priority>0.9</priority></url>
-  <url><loc>https://rowadlaser.com/about.html</loc><priority>0.7</priority></url>
-  <url><loc>https://rowadlaser.com/contact.html</loc><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/services.html</loc><lastmod>2026-08-06</lastmod><priority>0.95</priority></url>
+  <url><loc>https://rowadlaser.com/laser-metal-cutting.html</loc><lastmod>2026-08-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/metal-bending-forming.html</loc><lastmod>2026-08-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/stainless-steel-fabrication.html</loc><lastmod>2026-08-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/metal-fabrication.html</loc><lastmod>2026-08-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/fiber-marking.html</loc><lastmod>2026-08-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/custom-metal-solutions.html</loc><lastmod>2026-08-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/contracting-metal-projects.html</loc><lastmod>2026-08-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/metal-finishing-quality.html</loc><lastmod>2026-08-06</lastmod><priority>0.85</priority></url>
+  <url><loc>https://rowadlaser.com/stainless-steel-laser-cutting.html</loc><lastmod>2026-08-06</lastmod><priority>0.85</priority></url>
+  <url><loc>https://rowadlaser.com/steel-laser-cutting.html</loc><lastmod>2026-08-06</lastmod><priority>0.85</priority></url>
+  <url><loc>https://rowadlaser.com/aluminum-laser-cutting.html</loc><lastmod>2026-08-06</lastmod><priority>0.85</priority></url>
+  <url><loc>https://rowadlaser.com/copper-brass-laser-cutting.html</loc><lastmod>2026-08-06</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rowadlaser.com/galvanized-steel-laser-cutting.html</loc><lastmod>2026-08-06</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rowadlaser.com/metal-facades-signage.html</loc><lastmod>2026-08-06</lastmod><priority>0.85</priority></url>
+  <url><loc>https://rowadlaser.com/restaurant-kitchen-equipment.html</loc><lastmod>2026-08-06</lastmod><priority>0.85</priority></url>
+  <url><loc>https://rowadlaser.com/industrial-parts-manufacturing.html</loc><lastmod>2026-08-06</lastmod><priority>0.85</priority></url>
+  <url><loc>https://rowadlaser.com/architectural-metal-decor.html</loc><lastmod>2026-08-06</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rowadlaser.com/laser-cutting-services.html</loc><lastmod>2026-08-06</lastmod><priority>0.8</priority></url>
   <url><loc>https://rowadlaser.com/laser-jeddah.html</loc><priority>0.9</priority></url>
   <url><loc>https://rowadlaser.com/laser-makkah.html</loc><priority>0.8</priority></url>
+  <url><loc>https://rowadlaser.com/about.html</loc><priority>0.7</priority></url>
+  <url><loc>https://rowadlaser.com/contact.html</loc><priority>0.9</priority></url>
   <url><loc>https://rowadlaser.com/blog.html</loc><priority>0.6</priority></url>
   <url><loc>https://rowadlaser.com/post.html</loc><priority>0.4</priority></url>
   <url><loc>https://rowadlaser.com/post2.html</loc><priority>0.4</priority></url>
@@ -19,11 +37,9 @@
   <url><loc>https://rowadlaser.com/post10.html</loc><priority>0.4</priority></url>
   <url><loc>https://rowadlaser.com/post11.html</loc><priority>0.4</priority></url>
   <url><loc>https://rowadlaser.com/post12.html</loc><priority>0.4</priority></url>
-  <url><loc>https://rowadlaser.com/post13.html</loc><lastmod>2026-08-05</lastmod><priority>0.4</priority></url>
-  <url><loc>https://rowadlaser.com/post14.html</loc><lastmod>2026-08-04</lastmod><priority>0.4</priority></url>
-  <url><loc>https://rowadlaser.com/post15.html</loc><lastmod>2026-08-03</lastmod><priority>0.4</priority></url>
-  <url><loc>https://rowadlaser.com/post16.html</loc><lastmod>2026-08-04</lastmod><priority>0.4</priority></url>
-  <url><loc>https://rowadlaser.com/post17.html</loc><lastmod>2026-08-04</lastmod><priority>0.4</priority></url>
-  <url><loc>https://rowadlaser.com/laser-cutting-services.html</loc><lastmod>2026-08-04</lastmod><priority>0.9</priority></url>
-  <url><loc>https://rowadlaser.com/fiber-marking.html</loc><lastmod>2026-08-04</lastmod><priority>0.9</priority></url>
+  <url><loc>https://rowadlaser.com/post13.html</loc><priority>0.4</priority></url>
+  <url><loc>https://rowadlaser.com/post14.html</loc><priority>0.4</priority></url>
+  <url><loc>https://rowadlaser.com/post15.html</loc><priority>0.4</priority></url>
+  <url><loc>https://rowadlaser.com/post16.html</loc><priority>0.4</priority></url>
+  <url><loc>https://rowadlaser.com/post17.html</loc><priority>0.4</priority></url>
 </urlset>

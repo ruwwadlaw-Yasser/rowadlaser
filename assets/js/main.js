@@ -38,6 +38,10 @@
       var v = el.getAttribute('data-' + lang + '-aria');
       if (v !== null) el.setAttribute('aria-label', v);
     });
+    document.querySelectorAll('[data-ar-alt]').forEach(function (el) {
+      var v = el.getAttribute('data-' + lang + '-alt');
+      if (v !== null) el.setAttribute('alt', v);
+    });
     // toggle button label shows the OTHER language
     document.querySelectorAll('.lang-label').forEach(function (el) {
       el.textContent = (lang === 'ar') ? 'EN' : 'ع';
