@@ -521,6 +521,7 @@ PROVIDER = """{
       "@id": "https://rowadlaser.com/#business",
       "name": "رواد الليزر",
       "alternateName": "Ruwwad Laser",
+      "sameAs": ["https://www.instagram.com/rowadlaser/"],
       "url": "https://rowadlaser.com/",
       "logo": "https://rowadlaser.com/assets/logos/logo-brand-black.png",
       "telephone": "+966543225519",
