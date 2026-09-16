@@ -129,8 +129,8 @@ PAGE = {
                     "لوحات مداخل وأسماء وأرقام بنقش دائم لا يبهت مع التنظيف المتكرّر.",
                     "Entrance plaques, names and numbers with permanent marking that survives repeated cleaning.",
                 ),
-                "href": "fiber-marking.html",
-                "more": ("الحفر والنحت على المعادن", "Metal engraving"),
+                "href": "laser-engraving-jeddah.html",
+                "more": ("حفر ونقش بالليزر على المعادن", "Laser engraving on metal"),
             },
             {
                 "icon": "build",

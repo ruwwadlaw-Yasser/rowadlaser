@@ -310,8 +310,8 @@ PAGE = {
             },
             {
                 "icon": "engrave",
-                "href": "fiber-marking.html",
-                "h3": ("حفر على الألمنيوم", "Engraving on aluminium"),
+                "href": "laser-engraving-jeddah.html",
+                "h3": ("حفر ليزر على الألمنيوم", "Laser engraving on aluminium"),
                 "p": (
                     "نقش عالي التباين للأرقام والرموز على لوحات الأجهزة والقطع الصناعية.",
                     "High-contrast marking of numbers and symbols on instrument panels and industrial parts.",

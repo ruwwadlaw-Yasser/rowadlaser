@@ -131,8 +131,8 @@ PAGE = {
                     "قطع فردية بتصميم خاص، يمكن دمج القص مع الحفر لإضافة الأسماء والتواريخ.",
                     "One-off pieces with a custom design, combining cutting with engraving to add names and dates.",
                 ),
-                "href": "fiber-marking.html",
-                "more": ("الحفر والنحت على المعادن", "Metal engraving"),
+                "href": "laser-engraving-jeddah.html",
+                "more": ("حفر ونقش بالليزر على المعادن", "Laser engraving on metal"),
             },
             {
                 "icon": "store",
@@ -269,8 +269,8 @@ PAGE = {
         "items": [
             {
                 "icon": "engrave",
-                "href": "fiber-marking.html",
-                "h3": ("الحفر على النحاس والبراص", "Engraving on copper and brass"),
+                "href": "laser-engraving-jeddah.html",
+                "h3": ("حفر ليزر على النحاس والبراص", "Laser engraving on copper and brass"),
                 "p": (
                     "نقش أسماء وتواريخ وشعارات على القطع النحاسية بتباين واضح ودائم.",
                     "Marking names, dates and logos on copper pieces with clear, permanent contrast.",

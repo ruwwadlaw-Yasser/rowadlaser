@@ -139,10 +139,10 @@ h2.h-section { font-size:clamp(2rem, 4.6vw, 3.3rem); font-weight:900; letter-spa
 .brand .brand-name span { font-size:.72rem; color:var(--faint); }
 
 .nav-links { display:flex; align-items:center; gap:2px; }
-.nav-links a { position:relative; font-family:var(--font-head); font-weight:600; font-size:.97rem; color:var(--ink-soft); padding:8px 14px; border-radius:var(--r-pill); transition:color .18s, background .18s; }
+.nav-links a { position:relative; white-space:nowrap; font-family:var(--font-head); font-weight:600; font-size:.97rem; color:var(--ink-soft); padding:8px 12px; border-radius:var(--r-pill); transition:color .18s, background .18s; }
 .nav-links a:hover { color:var(--ink); background:var(--paper-2); }
 .nav-links a.active { color:var(--ink); }
-.nav-links a.active::after { content:""; position:absolute; inset-inline:14px; bottom:2px; height:2px; background:var(--accent); border-radius:2px; }
+.nav-links a.active::after { content:""; position:absolute; inset-inline:12px; bottom:2px; height:2px; background:var(--accent); border-radius:2px; }
 
 .nav-actions { display:flex; align-items:center; gap:10px; }
 .lang-toggle { display:inline-flex; align-items:center; gap:6px; font-family:var(--font-head); font-weight:700; font-size:.88rem; color:var(--ink); background:transparent; border:1px solid var(--line-strong); border-radius:var(--r-pill); padding:9px 14px; transition:border-color .18s, background .18s; }

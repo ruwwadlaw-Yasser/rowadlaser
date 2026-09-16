@@ -6,7 +6,7 @@ SERVICES = [
     ("metal-bending-forming", "تشكيل وثني المعادن", "Metal bending and forming"),
     ("stainless-steel-fabrication", "تصنيع الستانلس ستيل", "Stainless steel fabrication"),
     ("metal-fabrication", "تصنيع المعادن", "Metal fabrication"),
-    ("fiber-marking", "الحفر والنحت على المعادن", "Metal engraving and fibre marking"),
+    ("laser-engraving-jeddah", "الحفر والنقش بالليزر على المعادن", "Laser engraving on metal"),
     ("custom-metal-solutions", "الحلول المخصصة حسب الطلب", "Custom-made solutions"),
     ("contracting-metal-projects", "مشاريع المقاولات والكميات", "Contracting and bulk projects"),
     ("metal-finishing-quality", "التشطيب وفحص الجودة", "Finishing and quality control"),
@@ -35,14 +35,14 @@ PAGE = {
         "Laser Metal Cutting, Forming &amp; Fabrication Services in Jeddah | Ruwwad Laser",
     ),
     "desc": (
-        "كل خدمات رواد الليزر في صفحة واحدة: قص المعادن بالليزر، تشكيل وثني، تصنيع ستانلس ستيل، حفر ونحت، حلول مخصصة، مشاريع كميات، وتشطيب وفحص جودة في جدة.",
+        "كل خدمات رواد الليزر في صفحة واحدة: قص المعادن بالليزر، تشكيل وثني، تصنيع ستانلس ستيل، حفر ونقش بالليزر على المعادن، حلول مخصصة، مشاريع كميات، وتشطيب وفحص جودة في جدة.",
         "Every Ruwwad Laser service in one place: laser metal cutting, bending and forming, stainless fabrication, engraving, custom solutions, bulk projects, finishing and QC in Jeddah.",
     ),
     "og_image": "assets/img/svc/laser-cut-metal-parts-poster.jpg",
     "service_type": ("قص وتشكيل وتصنيع المعادن بالليزر", "Laser metal cutting, forming and fabrication"),
     "schema_name": ("خدمات قص وتشكيل وتصنيع المعادن بالليزر في جدة", "Laser metal cutting, forming and fabrication services in Jeddah"),
     "schema_desc": (
-        "مجموعة خدمات رواد الليزر في جدة: قص المعادن بالليزر CNC، تشكيل وثني، تصنيع الستانلس ستيل والمعادن المختلفة، الحفر والنحت بالفايبر، الحلول المخصصة، مشاريع الكميات، والتشطيب وفحص الجودة.",
+        "مجموعة خدمات رواد الليزر في جدة: قص المعادن بالليزر CNC، تشكيل وثني، تصنيع الستانلس ستيل والمعادن المختلفة، الحفر والنقش بالليزر على المعادن، الحلول المخصصة، مشاريع الكميات، والتشطيب وفحص الجودة.",
         "The full Ruwwad Laser service set in Jeddah: CNC laser metal cutting, bending and forming, stainless and multi-metal fabrication, fibre engraving, custom solutions, bulk projects, and finishing with quality control.",
     ),
     "schema_offers": [(ar, en) for slug, ar, en in SERVICES],
@@ -144,12 +144,12 @@ PAGE = {
             },
             {
                 "icon": "engrave",
-                "href": "fiber-marking.html",
-                "more": ("تفاصيل الفايبر ماركينق", "Fibre marking details"),
-                "h3": ("الحفر والنحت على المعادن", "Metal engraving and fibre marking"),
+                "href": "laser-engraving-jeddah.html",
+                "more": ("تفاصيل خدمة الحفر بالليزر", "Laser engraving details"),
+                "h3": ("حفر ونقش بالليزر على المعادن", "Laser engraving on metal"),
                 "p": (
-                    "نقش دائم لا يبهت: أسماء وشعارات وأرقام تسلسلية وأكواد QR على اللوحات واللافتات والهدايا والقطع الصناعية.",
-                    "Permanent, fade-free marking: names, logos, serial numbers and QR codes on plates, signage, gifts and industrial parts.",
+                    "حفر ليزر دائم لا يبهت: شعارات وأسماء وأرقام تسلسلية وأكواد QR ولوحات بيانات على الستانلس والحديد والألمنيوم والنحاس — بلا حد أدنى للطلب.",
+                    "Permanent laser engraving that never fades: logos, names, serial numbers, QR codes and data plates on stainless, steel, aluminium and brass — with no minimum order.",
                 ),
             },
             {
@@ -213,7 +213,7 @@ PAGE = {
             (
                 "assets/img/svc/industrial-laser-engraving-wide.jpg",
                 ("حفر ونقش صناعي على لوحات معدنية بالفايبر ليزر", "Industrial fibre-laser engraving on metal plates"),
-                ("حفر ونحت", "Engraving"),
+                ("حفر ونقش بالليزر", "Laser engraving"),
                 1400,
                 933,
             ),
@@ -314,6 +314,46 @@ PAGE = {
                 "p": (
                     "حماية زنك بميزانية معقولة — لأعمال التكييف والدكتات والأسقف.",
                     "Zinc protection at a sensible budget — for HVAC, ducting and roofing work.",
+                ),
+            },
+            {
+                "icon": "engrave",
+                "href": "engraving-stainless-steel.html",
+                "more": ("حفر على الستانلس ستيل", "Stainless steel engraving"),
+                "h3": ("حفر ليزر على الستانلس ستيل", "Laser engraving on stainless steel"),
+                "p": (
+                    "أعلى تباين وأنظف نتيجة — نقش أسود دائم على 304 و316 دون المساس بمقاومة الصدأ.",
+                    "The highest contrast and cleanest result — permanent black marking on 304 and 316 without harming corrosion resistance.",
+                ),
+            },
+            {
+                "icon": "file",
+                "href": "metal-nameplates-serial-numbers.html",
+                "more": ("لوحات بيانات وأرقام تسلسلية", "Data plates and serial numbers"),
+                "h3": ("لوحات بيانات وأرقام تسلسلية", "Data plates and serial numbers"),
+                "p": (
+                    "لوحات المعدات والأصول بترقيم تسلسلي تلقائي — نقصّها ونحفرها في طلب واحد.",
+                    "Equipment and asset plates with automatic sequential numbering — cut and engraved in one order.",
+                ),
+            },
+            {
+                "icon": "target",
+                "href": "logo-engraving-products.html",
+                "more": ("حفر الشعارات على المنتجات", "Logo engraving on products"),
+                "h3": ("حفر شعار الشركة على المنتجات", "Company logo engraving on products"),
+                "p": (
+                    "شعارك محفوراً في المعدن على منتجاتك وهداياك الدعائية — لا ملصقاً يزول بعد أشهر.",
+                    "Your logo engraved into the metal on your products and corporate gifts — not a sticker that fades in months.",
+                ),
+            },
+            {
+                "icon": "cube",
+                "href": "qr-barcode-marking.html",
+                "more": ("حفر باركود وأكواد QR", "QR and barcode marking"),
+                "h3": ("حفر أكواد QR والباركود", "QR code and barcode marking"),
+                "p": (
+                    "أكواد تتبّع دائمة تُقرأ بالجوال أو بالماسح بعد سنوات — كل كود يُختبر قبل التسليم.",
+                    "Permanent tracking codes readable by phone or scanner for years — every code is tested before delivery.",
                 ),
             },
             {
@@ -576,7 +616,7 @@ PAGE = {
         ("تشكيل وثني المعادن", "Metal bending and forming"),
         ("تصنيع الستانلس ستيل", "Stainless steel fabrication"),
         ("تصنيع المعادن المختلفة", "Multi-metal fabrication"),
-        ("الحفر والنحت بالفايبر ليزر", "Fibre laser engraving"),
+        ("الحفر والنقش بالليزر على المعادن", "Laser engraving on metal"),
         ("حلول مخصصة حسب الطلب", "Custom-made solutions"),
         ("مشاريع مقاولات وكميات", "Contracting and bulk projects"),
         ("تشطيب وفحص جودة", "Finishing and quality control"),

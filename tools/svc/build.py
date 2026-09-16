@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(os.path.dirname(HERE))
 PAGES_DIR = os.path.join(HERE, "pages")
 BASE = "https://rowadlaser.com/"
-CSS_V = "6"
+CSS_V = "7"
 JS_V = "4"
 
 # ============================================================
@@ -78,7 +78,7 @@ def shared_chrome():
           <li><a href="metal-bending-forming.html" data-ar="تشكيل وثني المعادن" data-en="Bending &amp; forming">تشكيل وثني المعادن</a></li>
           <li><a href="stainless-steel-fabrication.html" data-ar="تصنيع الستانلس ستيل" data-en="Stainless fabrication">تصنيع الستانلس ستيل</a></li>
           <li><a href="metal-fabrication.html" data-ar="تصنيع المعادن" data-en="Metal fabrication">تصنيع المعادن</a></li>
-          <li><a href="fiber-marking.html" data-ar="الحفر والنحت على المعادن" data-en="Metal engraving">الحفر والنحت على المعادن</a></li>
+          <li><a href="laser-engraving-jeddah.html" data-ar="حفر ونقش بالليزر على المعادن" data-en="Laser engraving on metal">حفر ونقش بالليزر على المعادن</a></li>
           <li><a href="custom-metal-solutions.html" data-ar="حلول مخصصة حسب الطلب" data-en="Custom solutions">حلول مخصصة حسب الطلب</a></li>
           <li><a href="contracting-metal-projects.html" data-ar="مشاريع المقاولات والكميات" data-en="Contracting &amp; bulk">مشاريع المقاولات والكميات</a></li>
           <li><a href="metal-finishing-quality.html" data-ar="التشطيب وفحص الجودة" data-en="Finishing &amp; QC">التشطيب وفحص الجودة</a></li>
@@ -399,6 +399,35 @@ def sec_why(p):
 </section>"""
 
 
+def sec_pdf(p):
+    d = p.get("pdf")
+    if not d:
+        return ""
+    metas = "".join(f'<span {bi(*pair(m))}</span>' for m in d.get("meta", []))
+    ca, ce = pair(d["cover_alt"])
+    return f"""<section class="section" id="service-file">
+  <div class="container">
+    {_head_block(d)}
+    <div class="pdf-card reveal">
+      <div class="pdf-cover"><img src="{d['cover']}" alt="{esc(ca)}" data-ar-alt="{esc(ca)}" data-en-alt="{esc(ce)}" width="{d.get('cover_w', 800)}" height="{d.get('cover_h', 1131)}" loading="lazy" decoding="async" /></div>
+      <div>
+        <h3 {bi(*pair(d["h3"]))}</h3>
+        <p {bi(*pair(d["p"]))}</p>
+        <div class="pdf-meta">{metas}</div>
+        <div class="pdf-actions">
+          <a class="btn btn-primary" href="{d['file']}" download>{ico('download')}<span {bi("تحميل الملف PDF", "Download PDF")}</span></a>
+          <a class="btn btn-ghost" href="{d['file']}" target="_blank" rel="noopener">{ico('file')}<span {bi("فتح في نافذة جديدة", "Open in a new tab")}</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="pdf-frame reveal">
+      <iframe src="{d['file']}#view=FitH" title="{esc(pair(d['h3'])[0])}" loading="lazy"></iframe>
+      <div class="pdf-frame-note" {bi("لا يظهر العارض؟ استخدم زر «تحميل الملف PDF» بالأعلى.", "Viewer not loading? Use the “Download PDF” button above.")}</div>
+    </div>
+  </div>
+</section>"""
+
+
 def sec_related(p):
     d = p.get("related")
     if not d:
@@ -648,6 +677,7 @@ SECTIONS = [
     sec_sectors,
     sec_process,
     sec_why,
+    sec_pdf,
     sec_related,
     sec_faq,
     sec_quote,

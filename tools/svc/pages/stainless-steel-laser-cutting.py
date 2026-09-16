@@ -330,8 +330,8 @@ PAGE = {
             },
             {
                 "icon": "engrave",
-                "href": "fiber-marking.html",
-                "h3": ("حفر على الستانلس", "Engraving on stainless"),
+                "href": "engraving-stainless-steel.html",
+                "h3": ("حفر ليزر على الستانلس ستيل", "Laser engraving on stainless steel"),
                 "p": (
                     "نقش دائم للأسماء والشعارات وأكواد QR بتباين واضح على السطح المصقول.",
                     "Permanent marking of names, logos and QR codes with clear contrast on a brushed surface.",
