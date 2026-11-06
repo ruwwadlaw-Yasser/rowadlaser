@@ -396,6 +396,26 @@ PAGE = {
                     "Islamic and geometric cut-out patterns for dividers, shading and ceilings at project dimensions.",
                 ),
             },
+            {
+                "icon": "engrave",
+                "href": "industrial-labels-tags.html",
+                "more": ("اللوحات والتاقات التعريفية", "Labels, plates and tags"),
+                "h3": ("لوحات وتاقات تعريفية محفورة", "Engraved labels, plates and tags"),
+                "p": (
+                    "تاقات محابس وكيابل ولوتو، لوحات سلامة وإرشاد، وبادجات أسماء — بقائمة واحدة.",
+                    "Valve, cable and LOTO tags, safety and directional signs, and name badges — from one list.",
+                ),
+            },
+            {
+                "icon": "bolt",
+                "href": "traffolyte-engraving.html",
+                "more": ("لوحات الترافوليت", "Traffolyte labels"),
+                "h3": ("لوحات ترافوليت للكهرباء", "Traffolyte electrical labels"),
+                "p": (
+                    "تسميات لوحات التوزيع والقواطع ومراكز التحكم بالألوان القياسية.",
+                    "Distribution board, breaker and MCC labels in standard colours.",
+                ),
+            },
         ],
     },
     "sectors": {
