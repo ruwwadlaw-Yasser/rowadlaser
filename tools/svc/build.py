@@ -22,7 +22,7 @@ SITE = os.path.dirname(os.path.dirname(HERE))
 PAGES_DIR = os.path.join(HERE, "pages")
 BASE = "https://rowadlaser.com/"
 CSS_V = "7"
-JS_V = "4"
+JS_V = "5"
 
 # ============================================================
 #  أدوات مساعدة
@@ -491,7 +491,7 @@ def sec_quote(p):
         <h2 class="h-section" style="margin-top:10px" {bi(ar, en)}</h2>
         <p class="lead" {bi(la, le)}</p>
         <div style="margin-top:26px">
-          <div class="info-item"><div class="ic">{ico('wa')}</div><div><b {bi("واتساب — الأسرع", "WhatsApp — fastest")}</b><a href="#" data-wa="{esc(wa)}" data-phone-text>0543225519</a></div></div>
+          <div class="info-item"><div class="ic">{ico('wa')}</div><div><b {bi("واتساب — الأسرع", "WhatsApp — fastest")}</b><a href="#" data-wa="{esc(wa)}" data-phone-text>0550214342</a></div></div>
           <div class="info-item"><div class="ic">{ico('mail')}</div><div><b {bi("البريد الإلكتروني", "Email")}</b><a data-mail href="#" data-mail-text>info@rowadlaser.com</a></div></div>
           <div class="info-item"><div class="ic">{ico('pin')}</div><div><b {bi("الموقع", "Location")}</b><span {bi("جدة، المملكة العربية السعودية", "Jeddah, Saudi Arabia")}</span></div></div>
           <div class="info-item"><div class="ic">{ico('clock')}</div><div><b {bi("أوقات العمل", "Working hours")}</b><span {bi("السبت – الخميس، 8 ص – 6 م", "Sat – Thu, 8AM – 6PM")}</span></div></div>
@@ -553,7 +553,7 @@ PROVIDER = """{
       "sameAs": ["https://www.instagram.com/rowadlaser/"],
       "url": "https://rowadlaser.com/",
       "logo": "https://rowadlaser.com/assets/logos/logo-brand-black.png",
-      "telephone": "+966543225519",
+      "telephone": "+966550214342",
       "email": "info@rowadlaser.com",
       "priceRange": "$$",
       "address": {"@type": "PostalAddress", "addressLocality": "جدة", "addressRegion": "منطقة مكة المكرمة", "addressCountry": "SA"}
@@ -607,7 +607,7 @@ def ld_service(p):
     "availableChannel": {{
       "@type": "ServiceChannel",
       "serviceUrl": "{BASE}{p['slug']}.html#quote",
-      "servicePhone": {{"@type": "ContactPoint", "telephone": "+966543225519", "contactType": "sales"}}
+      "servicePhone": {{"@type": "ContactPoint", "telephone": "+966550214342", "contactType": "sales"}}
     }},
     "provider": {PROVIDER}{offers}
   }}

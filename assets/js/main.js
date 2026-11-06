@@ -6,8 +6,8 @@
 
   /* ---- CONFIG: العميل يعدّل هذه القيم | client edits these ---- */
   window.RUWWAD = window.RUWWAD || {
-    whatsapp: '966543225519',                 // رقم واتساب بصيغة دولية بدون +
-    phoneDisplay: '0543225519',
+    whatsapp: '966550214342',                 // رقم واتساب بصيغة دولية بدون +
+    phoneDisplay: '0550214342',
     email: 'info@rowadlaser.com',
     city: { ar: 'جدة، المملكة العربية السعودية', en: 'Jeddah, Saudi Arabia' }
   };
