@@ -280,6 +280,10 @@
             <label data-ar="الخدمة المطلوبة" data-en="Service needed">الخدمة المطلوبة</label>
             <select name="service"><option data-ar="لوحة بيانات معدة" data-en="Equipment data plate">لوحة بيانات معدة</option><option data-ar="لوحة وعاء ضغط" data-en="Pressure vessel nameplate">لوحة وعاء ضغط</option><option data-ar="لوحة بديلة لمعدة قديمة" data-en="Replacement plate for old equipment">لوحة بديلة لمعدة قديمة</option><option data-ar="لوحات بترقيم تسلسلي" data-en="Serialised plates">لوحات بترقيم تسلسلي</option><option data-ar="أخرى / غير متأكد" data-en="Other / not sure">أخرى / غير متأكد</option></select>
           </div>
+          <div class="form-row">
+            <div class="field"><label data-ar="جهة الطلب" data-en="Ordering for">جهة الطلب</label><select name="org"><option value="" data-ar="اختر…" data-en="Choose…">اختر…</option><option data-ar="شركة / مؤسسة" data-en="Company">شركة / مؤسسة</option><option data-ar="مقاول" data-en="Contractor">مقاول</option><option data-ar="مصنع / ورشة" data-en="Factory / workshop">مصنع / ورشة</option><option data-ar="مطعم / فندق / مستشفى" data-en="Restaurant / hotel / hospital">مطعم / فندق / مستشفى</option><option data-ar="فرد" data-en="Individual">فرد</option></select></div>
+            <div class="field"><label data-ar="الكمية التقريبية" data-en="Approximate quantity">الكمية التقريبية</label><select name="qty"><option value="" data-ar="اختر…" data-en="Choose…">اختر…</option><option data-ar="أقل من 10 قطع" data-en="Under 10 pieces">أقل من 10 قطع</option><option data-ar="10 – 24 قطعة" data-en="10 – 24 pieces">10 – 24 قطعة</option><option data-ar="25 – 50 قطعة" data-en="25 – 50 pieces">25 – 50 قطعة</option><option data-ar="50 – 200 قطعة" data-en="50 – 200 pieces">50 – 200 قطعة</option><option data-ar="أكثر من 200 قطعة" data-en="200+ pieces">أكثر من 200 قطعة</option><option data-ar="غير محددة بعد" data-en="Not sure yet">غير محددة بعد</option></select></div>
+          </div>
           <div class="field"><label data-ar="تفاصيل الطلب" data-en="Request details">تفاصيل الطلب</label><textarea name="message" data-ar-ph="اشرح لنا نوع المعدن، السماكة، الكمية، القياسات، والموعد المطلوب…" data-en-ph="Tell us the metal type, thickness, quantity, dimensions, and deadline…" placeholder="اشرح لنا نوع المعدن، السماكة، الكمية، القياسات، والموعد المطلوب…"></textarea></div>
           <button type="submit" class="btn btn-primary btn-block btn-lg"><svg><use href="#i-wa"/></svg><span data-ar="إرسال عبر واتساب" data-en="Send via WhatsApp">إرسال عبر واتساب</span></button>
           <p class="form-ok" hidden style="color:#1faf54;margin-top:12px;font-weight:600" data-ar="تم تجهيز رسالتك، أكمل الإرسال عبر واتساب. شكراً!" data-en="Your message is ready — complete sending on WhatsApp. Thank you!">تم تجهيز رسالتك، أكمل الإرسال عبر واتساب. شكراً!</p>
@@ -355,6 +359,6 @@
 </footer>
 
 <a class="fab-wa" href="#" data-wa="مرحباً رواد الليزر، أرغب في طلب عرض سعر لخدمات قص وتصنيع المعادن." aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
-<script src="assets/js/main.js?v=5" defer></script>
+<script src="assets/js/main.js?v=6" defer></script>
 </body>
 </html>

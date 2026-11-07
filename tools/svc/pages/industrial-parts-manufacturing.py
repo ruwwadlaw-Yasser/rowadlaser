@@ -10,8 +10,8 @@ PAGE = {
         "Industrial Parts &amp; Spares Manufacturing in Jeddah | Made to Drawing",
     ),
     "desc": (
-        "تصنيع القطع الصناعية وقطع الغيار في جدة حسب الرسم الهندسي أو القطعة الأصلية: فلانشات، ألواح تثبيت، كراسي وقطع خطوط إنتاج بدقة ±0.1 مم. نقبل القطعة الواحدة.",
-        "Industrial part and spare manufacturing in Jeddah to your drawing or original part: flanges, mounting plates, brackets and production-line parts at ±0.1 mm. Single pieces accepted.",
+        "تصنيع القطع الصناعية وقطع الغيار في جدة حسب الرسم الهندسي أو القطعة الأصلية: فلانشات، ألواح تثبيت، كراسي وقطع خطوط إنتاج بدقة ±0.1 مم، ودفعات توريد متكررة للمصانع.",
+        "Industrial part and spare manufacturing in Jeddah to your drawing or original part: flanges, mounting plates, brackets and production-line parts at ±0.1 mm. Batch orders welcome.",
     ),
     "og_image": "assets/img/gallery/industrial-parts.jpg",
     "service_type": ("تصنيع القطع الصناعية وقطع الغيار", "Industrial parts and spares manufacturing"),
@@ -37,7 +37,7 @@ PAGE = {
         "chips": [
             ("دقة ±0.1 مم", "±0.1 mm accuracy", "target"),
             ("من القطعة الأصلية أو الرسم", "From the original or the drawing", "file"),
-            ("القطعة الواحدة مقبولة", "Single pieces accepted", "check"),
+            ("دفعات وكميات", "Batch orders welcome", "check"),
             ("تكرار مضبوط في الكميات", "Exact repeatability in batches", "layers"),
         ],
         "img": (
@@ -54,7 +54,7 @@ PAGE = {
     "facts": [
         (("±0.1 mm", "±0.1 mm"), ("مطابقة القياسات للرسم", "Matched to the drawing")),
         (("6h", "6h"), ("لبدء التنفيذ بعد الاعتماد", "To start production")),
-        (("1", "1"), ("قطعة واحدة طلب مقبول", "One piece is a valid order")),
+        (("1", "1"), ("من النموذج إلى الدفعات", "From prototype to batches")),
         (("100%", "100%"), ("قياس وفحص قبل التسليم", "Measured and checked before delivery")),
     ],
     "intro": {
@@ -465,7 +465,7 @@ PAGE = {
             ),
         },
         {
-            "q": ("هل تقبلون طلب قطعة واحدة عاجلة؟", "Do you accept a single urgent part?"),
+            "q": ("هل تنفّذون طلبات قطع الغيار العاجلة؟", "Do you handle urgent spare-part orders?"),
             "a": (
                 "نعم، وهي من أكثر الطلبات التي تصلنا. أرسل القطعة أو صورها مع القياسات وأخبرنا بمدى الاستعجال، ونعطيك موعداً واقعياً — لا موعداً متفائلاً لا نستطيع الوفاء به.",
                 "Yes — it is one of our most common requests. Send the part or photos with dimensions and tell us how urgent it is, and we will give you a realistic date rather than an optimistic one we cannot keep.",

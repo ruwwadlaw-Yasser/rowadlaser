@@ -12,7 +12,7 @@ PAGE = {
         "Engraved Data Plates &amp; Serial Numbers in Jeddah | Ruwwad Laser",
     ),
     "desc": (
-        "تصنيع وحفر لوحات بيانات المعدات ولوحات التعريف والأرقام التسلسلية في جدة على الستانلس والألمنيوم: ترقيم تسلسلي تلقائي، نقش دائم لا يبهت، ومطابق لمتطلبات التتبّع. من لوحة واحدة.",
+        "تصنيع وحفر لوحات بيانات المعدات ولوحات التعريف والأرقام التسلسلية في جدة على الستانلس والألمنيوم: ترقيم تسلسلي تلقائي، نقش دائم لا يبهت، ومطابق لمتطلبات التتبّع.",
         "Manufacture and engraving of equipment data plates, nameplates and serial numbers in Jeddah on stainless and aluminium: automatic sequential numbering and permanent marking that meets traceability requirements.",
     ),
     "og_image": "assets/img/svc/engraved-machine-nameplate.jpg",
@@ -39,7 +39,7 @@ PAGE = {
             ("ترقيم تسلسلي تلقائي", "Automatic serial numbering", "sliders"),
             ("نقصّ اللوحة ونحفرها", "We cut and engrave the plate", "cut"),
             ("ستانلس أو ألمنيوم", "Stainless or aluminium", "layers"),
-            ("من لوحة واحدة", "From a single plate", "check"),
+            ("دفعات مرقّمة تسلسلياً", "Serialised batches", "check"),
         ],
         "img": (
             "assets/img/svc/engraved-machine-nameplate.jpg",
@@ -150,7 +150,7 @@ PAGE = {
                 "icon": "file",
                 "h3": ("لوحات تذكارية ودروع", "Commemorative plaques and awards"),
                 "p": (
-                    "لوحات إهداء وتكريم بنقش نظيف على النحاس أو البراص أو الستانلس، بقطعة واحدة أو بالعدد.",
+                    "لوحات إهداء وتكريم بنقش نظيف على النحاس أو البراص أو الستانلس، بالعدد الذي تحتاجه جهتك.",
                     "Dedication and recognition plaques with clean marking on copper, brass or stainless — single or in quantity.",
                 ),
             },
@@ -343,10 +343,10 @@ PAGE = {
     },
     "faq": [
         {
-            "q": ("هل تنفّذون لوحة بيانات واحدة فقط؟", "Do you produce a single data plate?"),
+            "q": ("هل تنفّذون لوحات البيانات بالدفعات؟", "Do you produce data plates in batches?"),
             "a": (
-                "نعم. كثير من طلباتنا لوحة واحدة بديلة لمعدة ضاعت لوحتها الأصلية. أرسل صورة للوحة القديمة أو اكتب لنا البيانات المطلوبة والمقاس، وننفّذها لك — بلا حد أدنى للكمية.",
-                "Yes. Many of our orders are a single replacement plate for equipment whose original plate was lost. Send a photo of the old plate or write out the data and size, and we produce it — with no minimum quantity.",
+                "نعم. ننفّذ دفعات لوحات البيانات للمعدات والمشاريع، كما نعيد تصنيع اللوحات البديلة للمعدات التي ضاعت لوحاتها الأصلية. أرسل صورة للوحة القديمة أو البيانات المطلوبة والمقاس والعدد، ونرتّب الترقيم من ملف Excel.",
+                "Yes. We produce batches of data plates for equipment and projects, and we also remake replacement plates for equipment whose originals were lost. Send a photo of the old plate or the data, size and quantity, and we arrange the numbering from an Excel file.",
             ),
         },
         {
@@ -388,8 +388,8 @@ PAGE = {
     "cta": {
         "h2": ("لوحة تبقى مقروءة طوال عمر المعدة", "A plate that stays readable for the asset's life"),
         "p": (
-            "من لوحة واحدة إلى دفعة بترقيم تسلسلي كامل — أرسل التفاصيل واحصل على عرض سعر.",
-            "From a single plate to a fully serialised batch — send the details and get a quote.",
+            "من دفعة تجريبية إلى إنتاج بترقيم تسلسلي كامل — أرسل التفاصيل واحصل على عرض سعر.",
+            "From a trial batch to full serialised production — send the details and get a quote.",
         ),
         "wa": "مرحباً رواد الليزر، أرغب في عرض سعر للوحات بيانات وأرقام تسلسلية.",
     },

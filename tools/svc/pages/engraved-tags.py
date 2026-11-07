@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""التاقات والميداليات المعدنية (Dog tags, pet tags, keychains, asset tags) — تحت اللوحات والتاقات"""
+"""تاقات الأصول والمعدات وميداليات الشركات (asset tags, equipment tags, keychains) — تحت اللوحات والتاقات"""
 import os
 import sys
 
@@ -11,80 +11,78 @@ WA = "مرحباً رواد الليزر، أرغب في عرض سعر لتاق�
 PAGE = {
     "slug": "engraved-tags",
     "parent": TAGS_PARENT,
-    "crumb": ("التاقات والميداليات المعدنية", "Metal tags and keychains"),
+    "crumb": ("تاقات الأصول والميداليات المعدنية", "Asset tags and metal keychains"),
     "title": (
-        "تاقات معدنية وميداليات محفورة في جدة | دوق تاق، تاقات حيوانات، تاقات أصول — رواد الليزر",
-        "Engraved Metal Tags &amp; Keychains in Jeddah | Dog Tags, Pet Tags, Asset Tags — Ruwwad Laser",
+        "تاقات أصول ومعدات وميداليات شركات محفورة في جدة | Asset Tags بالكميات — رواد الليزر",
+        "Engraved Asset Tags, Equipment Tags &amp; Branded Keychains in Jeddah | In Quantity — Ruwwad Laser",
     ),
     "desc": (
-        "تاقات معدنية محفورة بالليزر في جدة: دوق تاق (Dog Tag) بالاسم وفصيلة الدم، تاقات حيوانات أليفة، ميداليات مفاتيح بشعار الشركة، وتاقات أصول ومعدات بباركود. ستانلس وبراص وألمنيوم — للهدايا الشخصية وطلبات الشركات.",
-        "Laser engraved metal tags in Jeddah: dog tags with name and blood type, pet ID tags, branded keychains, and asset/equipment tags with barcodes. Stainless, brass and aluminium — for personal gifts and company orders.",
+        "تاقات معدنية محفورة بالليزر للشركات في جدة: تاقات أصول ومعدات بباركود وQR، تاقات ترقيم العدد والأدوات، وميداليات مفاتيح دعائية بشعار الشركة — ستانلس وبراص وألمنيوم، بالكميات ومرقّمة من ملف إكسل.",
+        "Laser engraved metal tags for companies in Jeddah: asset and equipment tags with barcodes and QR, tool numbering tags, and promotional keychains with your logo — stainless, brass and aluminium, in quantity and numbered from Excel.",
     ),
-    "og_image": "assets/img/svc/tags-dog-pet-tags.jpg",
-    "service_type": ("تاقات وميداليات معدنية محفورة", "Engraved metal tags and keychains"),
-    "schema_name": ("التاقات والميداليات المعدنية المحفورة في جدة", "Engraved metal tags and keychains in Jeddah"),
+    "og_image": "assets/img/svc/tags-asset-tags.jpg",
+    "service_type": ("تاقات أصول ومعدات وميداليات شركات محفورة", "Engraved asset tags, equipment tags and branded keychains"),
+    "schema_name": ("تاقات الأصول والميداليات المعدنية المحفورة في جدة", "Engraved asset tags and metal keychains in Jeddah"),
     "schema_desc": (
-        "حفر التاقات المعدنية بالليزر في جدة: تاقات تعريف شخصية (Dog Tags)، تاقات الحيوانات الأليفة، ميداليات المفاتيح الدعائية، تاقات الأصول والمعدات بالباركود وQR، وتاقات الحقائب — على الستانلس والبراص والألمنيوم.",
-        "Laser engraving of metal tags in Jeddah: personal ID dog tags, pet tags, promotional keychains, asset and equipment tags with barcodes and QR, and luggage tags — on stainless, brass and aluminium.",
+        "حفر التاقات المعدنية بالليزر للشركات في جدة: تاقات الأصول والمعدات بالباركود وQR، تاقات ترقيم العدد والأدوات، وميداليات المفاتيح الدعائية بشعار الشركة — على الستانلس والبراص والألمنيوم، بالكميات.",
+        "Laser engraving of metal tags for companies in Jeddah: asset and equipment tags with barcodes and QR, tool numbering tags, and promotional keychains with the company logo — on stainless, brass and aluminium, in quantity.",
     ),
     "schema_offers": [
-        ("دوق تاق محفور", "Engraved dog tags"),
-        ("تاقات الحيوانات الأليفة", "Pet ID tags"),
-        ("ميداليات مفاتيح بالشعار", "Branded keychains"),
         ("تاقات أصول ومعدات", "Asset and equipment tags"),
+        ("تاقات ترقيم العدد والأدوات", "Tool numbering tags"),
+        ("ميداليات مفاتيح بالشعار", "Branded keychains"),
+        ("تاقات معدنية مرقّمة بالكميات", "Numbered metal tags in quantity"),
     ],
     "hero": {
-        "eyebrow": ("تاقات · ميداليات · أصول", "Tags · keychains · assets"),
-        "h1": ("تاقات معدنية وميداليات محفورة", "Engraved metal tags and keychains"),
+        "eyebrow": ("أصول · معدات · ميداليات", "Assets · equipment · keychains"),
+        "h1": ("تاقات أصول وميداليات شركات محفورة", "Engraved asset tags and company keychains"),
         "sub": (
-            "تاق بالاسم وفصيلة الدم، تاق لقطّتك برقم جوالك، ميدالية بشعار شركتك لعملائك، أو تاق أصول لكل جهاز في مكتبك. نحفرها بالليزر على ستانلس وبراص وألمنيوم — لهدية شخصية أو لطلبات شركتك بالكميات.",
-            "A tag with your name and blood type, a tag for your cat with your number, a keychain with your logo for clients, or an asset tag for every device in your office. We laser engrave them on stainless, brass and aluminium — as a personal gift or in quantity for your company.",
+            "تاق أصول لكل جهاز في شركتك، رقم لكل أداة في ورشتك، أو ميدالية بشعارك لعملائك وموظفيك. نحفرها بالليزر على ستانلس وبراص وألمنيوم بالكميات — كل تاق برقمه أو باركوده من ملف إكسل.",
+            "An asset tag for every device in your company, a number for every tool in your workshop, or a keychain with your logo for clients and staff. We laser engrave them on stainless, brass and aluminium in quantity — each tag with its own number or barcode from Excel.",
         ),
         "chips": [
-            ("هدايا وطلبات شركات", "Gifts and company orders", "check"),
-            ("أسماء وأرقام مختلفة", "Different names and numbers", "file"),
+            ("بالكميات للشركات", "In quantity for companies", "check"),
+            ("ترقيم من ملف إكسل", "Numbering from Excel", "file"),
             ("ستانلس · براص · ألمنيوم", "Stainless · brass · aluminium", "layers"),
             ("باركود وQR", "Barcodes and QR", "target"),
         ],
-        "img": ("assets/img/svc/tags-dog-pet-tags.jpg", ("دوق تاق وتاق حيوان أليف على شكل عظمة وتاق أصول وميدالية مفاتيح", "Dog tag, bone-shaped pet tag, asset tag and keyring"), 1200, 900),
+        "img": ("assets/img/svc/tags-asset-tags.jpg", ("تاقات أصول مرقّمة مثبّتة على العدد والمعدات", "Numbered asset tags fixed on tools and equipment"), 1200, 900),
         "wa": WA,
     },
     "facts": [
         (("100%", "100%"), ("فحص كل رقم وحرف قبل التسليم", "Every number and letter checked")),
-        (("4", "4"), ("أنواع رئيسية من التاقات", "Main tag types")),
+        (("QR", "QR"), ("وباركود لجرد الأصول", "And barcodes for asset tracking")),
         (("2", "2"), ("الحفر على الوجهين", "Engraving on both sides")),
         (("6", "6"), ("ساعات لبدء التنفيذ", "Hours to start production")),
     ],
     "intro": {
-        "h2": ("تاق صغير، معلومة لا تضيع", "A small tag, information that never gets lost"),
+        "h2": ("رقم لكل أصل، شعار لا يُمحى", "A number for every asset, a logo that lasts"),
         "paras": [
             (
-                "التاق المعدني المحفور يحمل معلومة مهمة في مساحة صغيرة: اسم شخص، رقم تواصل، رقم أصل، أو شعار علامة تجارية. وبما أن الحفر بالليزر جزء من المعدن نفسه، فالمعلومة لا تُمحى بالاحتكاك اليومي في الجيب أو على الطوق أو في الحقيبة.",
-                "An engraved metal tag carries important information in a small space: a person's name, a contact number, an asset number or a brand logo. Since laser engraving is part of the metal itself, the information doesn't rub off from daily wear in a pocket, on a collar or in a bag.",
+                "التاق المعدني المحفور يحمل معلومة مهمة في مساحة صغيرة: رقم أصل، باركود جرد، رقم أداة، أو شعار علامتك التجارية. وبما أن الحفر بالليزر جزء من المعدن نفسه، فالمعلومة لا تُمحى بالاحتكاك أو الحرارة أو التنظيف.",
+                "An engraved metal tag carries important information in a small space: an asset number, an inventory barcode, a tool number or your brand logo. Since laser engraving is part of the metal itself, it doesn't rub off from friction, heat or cleaning.",
             ),
             (
-                "ولأن الحفر يتم من ملف رقمي، يمكن أن يحمل كل تاق نصاً مختلفاً — اسم كل موظف، رقم كل جهاز، أو باركود متسلسل — دون تكلفة إضافية تُذكر.",
-                "And because engraving runs from a digital file, every tag can carry different text — each employee's name, each device's number or a sequential barcode — at hardly any extra cost.",
+                "ولأن الحفر يتم من ملف رقمي، يحمل كل تاق في الدفعة نصاً مختلفاً — رقم كل جهاز، اسم كل قسم، أو باركود متسلسل — مرتّباً حسب قائمة الجرد عندك.",
+                "And because engraving runs from a digital file, every tag in the batch carries different text — each device's number, each department's name or a sequential barcode — sorted to your inventory list.",
             ),
         ],
-        "h3": ("أشهر الطلبات", "Most popular requests"),
+        "h3": ("أشهر طلبات الشركات", "Most popular company orders"),
         "bullets": [
-            ("دوق تاق (Dog Tag): الاسم، فصيلة الدم، رقم الطوارئ — للعسكريين والرياضيين والهدايا.", "Dog tags: name, blood type, emergency number — for servicemen, athletes and gifts."),
-            ("تاقات الحيوانات الأليفة: اسم القط أو الكلب ورقم جوال المالك.", "Pet tags: the cat's or dog's name and the owner's mobile number."),
+            ("تاقات الأصول: رقم الأصل وباركود أو QR لجرد الأجهزة والأثاث والمعدات.", "Asset tags: asset number and barcode or QR for inventorying devices, furniture and equipment."),
+            ("تاقات المعدات والمكائن: رقم المعدة وبيانات الصيانة على ستانلس يتحمّل بيئة العمل.", "Equipment and machine tags: equipment number and maintenance data on stainless that survives the workplace."),
+            ("ترقيم العدد والأدوات: رقم لكل أداة لمعرفة صاحبها ومكانها في الورشة.", "Tool numbering: a number for every tool to track its owner and place in the workshop."),
             ("ميداليات مفاتيح دعائية بشعار الشركة للعملاء والموظفين والمعارض.", "Promotional keychains with the company logo for clients, staff and exhibitions."),
-            ("تاقات الأصول: رقم الأصل وباركود أو QR لجرد الأجهزة والمعدات والأدوات.", "Asset tags: asset number and barcode or QR for inventorying devices, equipment and tools."),
         ],
     },
     "cards": {
         "eyebrow": ("الأنواع", "Types"),
         "h2": ("اختر نوع التاق", "Choose your tag type"),
         "items": [
-            {"icon": "user", "h3": ("دوق تاق", "Dog tags"), "p": ("ستانلس بحواف مدوّرة وسلسلة كرات، حفر على الوجهين.", "Rounded-edge stainless with a ball chain, engraved on both sides.")},
-            {"icon": "target", "h3": ("تاقات الحيوانات", "Pet tags"), "p": ("دائري، قلب، عظمة — براص أو ستانلس بحلقة للطوق.", "Round, heart or bone — brass or stainless with a collar ring.")},
-            {"icon": "store", "h3": ("ميداليات مفاتيح", "Keychains"), "p": ("بشعار الشركة أو اسم المناسبة، للهدايا والمعارض.", "With a company logo or event name, for gifts and exhibitions."), "href": "logo-engraving-products.html", "more": ("حفر الشعارات على المنتجات", "Logo engraving on products")},
             {"icon": "file", "h3": ("تاقات الأصول", "Asset tags"), "p": ("رقم أصل وباركود أو QR، بلاصق صناعي أو برشام.", "Asset number with barcode or QR, with industrial adhesive or rivets."), "href": "qr-barcode-marking.html", "more": ("حفر الباركود وQR", "Barcode and QR marking")},
+            {"icon": "factory", "h3": ("تاقات المعدات", "Equipment tags"), "p": ("رقم المعدة وبيانات الصيانة على ستانلس متين.", "Equipment number and maintenance data on durable stainless."), "href": "metal-nameplates-serial-numbers.html", "more": ("لوحات البيانات", "Data plates")},
             {"icon": "build", "h3": ("تاقات الأدوات", "Tool tags"), "p": ("ترقيم عدد الورش لمعرفة صاحب كل أداة ومكانها.", "Numbering workshop tools to track each tool's owner and place.")},
-            {"icon": "layers", "h3": ("تاقات الحقائب", "Luggage tags"), "p": ("الاسم ورقم التواصل على تاق معدني متين.", "Name and contact number on a durable metal tag.")},
+            {"icon": "store", "h3": ("ميداليات بالشعار", "Logo keychains"), "p": ("بشعار الشركة أو اسم المناسبة، للعملاء والمعارض.", "With a company logo or event name, for clients and exhibitions."), "href": "logo-engraving-products.html", "more": ("حفر الشعارات", "Logo engraving")},
         ],
     },
     "specs": {
@@ -93,10 +91,10 @@ PAGE = {
         "h2": ("المقاسات والمواد المعتادة", "Usual sizes and materials"),
         "cols": [("النوع", "Type"), ("المقاس الشائع", "Common size"), ("المادة", "Material")],
         "rows": [
-            [("دوق تاق", "Dog tag"), ("50×28 مم", "50×28 mm"), ("ستانلس", "Stainless")],
-            [("تاق حيوان", "Pet tag"), ("قطر 25–32 مم", "25–32 mm diameter"), ("براص أو ستانلس", "Brass or stainless")],
-            [("ميدالية مفاتيح", "Keychain"), ("قطر 35–45 مم أو بشكل الشعار", "35–45 mm or logo-shaped"), ("ستانلس أو ألمنيوم ملوّن", "Stainless or coloured aluminium")],
             [("تاق أصول", "Asset tag"), ("50×20 إلى 75×38 مم", "50×20 to 75×38 mm"), ("ألمنيوم مؤكسد أو ستانلس", "Anodised aluminium or stainless")],
+            [("تاق معدة", "Equipment tag"), ("75×38 إلى 100×50 مم", "75×38 to 100×50 mm"), ("ستانلس 304/316", "Stainless 304/316")],
+            [("تاق أداة", "Tool tag"), ("30×12 إلى 50×20 مم", "30×12 to 50×20 mm"), ("ستانلس أو ألمنيوم", "Stainless or aluminium")],
+            [("ميدالية مفاتيح", "Keychain"), ("قطر 35–45 مم أو بشكل الشعار", "35–45 mm or logo-shaped"), ("ستانلس أو ألمنيوم ملوّن", "Stainless or coloured aluminium")],
         ],
         "note": (
             "يمكن قصّ الميدالية بشكل شعارك نفسه بالليزر بدلاً من الأشكال القياسية.",
@@ -105,9 +103,9 @@ PAGE = {
     },
     "gallery": {
         "eyebrow": ("نماذج", "Samples"),
-        "h2": ("تاقات وميداليات محفورة", "Engraved tags and keychains"),
+        "h2": ("تاقات أصول وميداليات محفورة", "Engraved asset tags and keychains"),
         "items": [
-            ("assets/img/svc/tags-asset-tags.jpg", ("تاقات أصول مرقّمة مثبّتة على العدد والمعدات", "Numbered asset tags fixed on tools and equipment"), ("تاقات الأصول", "Asset tags"), 1200, 900),
+            ("assets/img/svc/tags-dog-pet-tags.jpg", ("تاق أصول وميدالية مفاتيح بشعار شركة وتاقات معدنية محفورة", "Asset tag, logo keychain and engraved metal tags"), ("ميداليات وتاقات", "Keychains and tags"), 1200, 900),
             ("assets/img/svc/tags-mixed-materials.jpg", ("تاقات محفورة من الستانلس والبراص والألمنيوم الملوّن", "Engraved tags in stainless, brass and coloured aluminium"), ("مواد مختلفة", "Different materials"), 1200, 900),
             g("engraved-hand-tool", ("عدّة يدوية محفور عليها رقم بالليزر", "A hand tool laser engraved with a number"), ("حفر على العدد", "Engraving on tools")),
         ],
@@ -127,15 +125,15 @@ PAGE = {
         {
             "q": ("هل تنفّذون طلبات الشركات بالكميات؟", "Do you handle company orders in quantity?"),
             "a": (
-                "نعم. ميداليات بشعار الشركة وتاقات أصول مرقّمة بالمئات والآلاف، مرتّبة حسب قائمتك — ونحفر أيضاً هدايا شخصية مثل دوق تاق أو تاق لقطتك.",
-                "Yes. Branded keychains and numbered asset tags in hundreds and thousands, sorted to your list — and we also engrave personal gifts like a dog tag or a tag for your cat.",
+                "نعم. ميداليات بشعار الشركة وتاقات أصول مرقّمة بالمئات والآلاف، مرتّبة حسب قائمتك، مع ترقيم أو باركود مختلف لكل قطعة.",
+                "Yes. Branded keychains and numbered asset tags in hundreds and thousands, sorted to your list with a different number or barcode on every piece.",
             ),
         },
         {
             "q": ("هل يمكن الحفر على الوجهين؟", "Can both sides be engraved?"),
             "a": (
-                "نعم. مثلاً: الاسم على الوجه الأول، ورقم الجوال أو فصيلة الدم على الوجه الثاني.",
-                "Yes. For example, the name on one side and the mobile number or blood type on the other.",
+                "نعم. مثلاً: شعار الشركة على الوجه الأول، ورقم الأصل أو الباركود على الوجه الثاني.",
+                "Yes. For example, the company logo on one side and the asset number or barcode on the other.",
             ),
         },
         {
@@ -148,16 +146,15 @@ PAGE = {
         {
             "q": ("هل تتوفر السلاسل والحلقات؟", "Are chains and rings available?"),
             "a": (
-                "نعم: سلاسل كرات للدوق تاق، حلقات مفاتيح، وحلقات صغيرة لأطواق الحيوانات — تُرفق مع الطلب.",
-                "Yes: ball chains for dog tags, key rings and small split rings for pet collars — supplied with the order.",
+                "نعم: سلاسل كرات، حلقات مفاتيح، أربطة وبراشيم للتثبيت على المعدات — تُرفق مع الطلب.",
+                "Yes: ball chains, key rings, ties and rivets for fixing to equipment — supplied with the order.",
             ),
         },
     ],
     "form_services": [
-        ("دوق تاق", "Dog tags"),
-        ("تاقات حيوانات أليفة", "Pet tags"),
-        ("ميداليات مفاتيح بالشعار", "Branded keychains"),
         ("تاقات أصول ومعدات", "Asset and equipment tags"),
+        ("ترقيم العدد والأدوات", "Tool numbering tags"),
+        ("ميداليات مفاتيح بالشعار", "Branded keychains"),
         ("أخرى / غير متأكد", "Other / not sure"),
     ],
     "form_wa": WA,

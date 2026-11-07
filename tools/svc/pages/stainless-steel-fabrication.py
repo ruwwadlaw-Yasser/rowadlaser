@@ -155,7 +155,7 @@ PAGE = {
             },
             {
                 "icon": "sliders",
-                "h3": ("تصنيع حسب طلب خاص", "Bespoke one-off fabrication"),
+                "h3": ("تصنيع حسب طلب خاص", "Bespoke custom fabrication"),
                 "p": (
                     "وحدة غير قياسية لا تجدها في السوق: نصنعها من الصفر بمقاسك ووظيفتك المطلوبة.",
                     "A non-standard unit you cannot buy off the shelf: we build it from scratch to your size and function.",
@@ -299,10 +299,10 @@ PAGE = {
             },
             {
                 "icon": "user",
-                "h3": ("الأفراد", "Individuals"),
+                "h3": ("المحلات والفروع", "Shops and branches"),
                 "p": (
-                    "وحدة واحدة لمنزل أو محل صغير — نقبلها ونعطيها نفس مستوى التنفيذ.",
-                    "A single unit for a home or small shop — accepted and built to the same standard.",
+                    "وحدات بمقاس محلك تُكرَّر لكل الفروع بنفس المستوى.",
+                    "Shops and branches — units built to your size and repeated across locations to the same standard.",
                 ),
             },
         ],
@@ -465,8 +465,8 @@ PAGE = {
         {
             "q": ("هل تنفّذون أعمال ستانلس بكميات لمشاريع؟", "Do you handle stainless in project volumes?"),
             "a": (
-                "نعم، من وحدة واحدة إلى تجهيز مطبخ كامل أو طلبات متكرّرة لمنشآت متعددة. للطلبات الكبيرة نرتّب جدول تسليم على مراحل يناسب تقدّم المشروع.",
-                "Yes — from a single unit to a complete kitchen fit-out or repeat orders across multiple facilities. For large orders we arrange phased delivery aligned to project progress.",
+                "نعم، من وحدة تجريبية إلى تجهيز مطبخ كامل أو طلبات متكرّرة لمنشآت متعددة. للطلبات الكبيرة نرتّب جدول تسليم على مراحل يناسب تقدّم المشروع.",
+                "Yes — from a trial unit to a complete kitchen fit-out or repeat orders across multiple facilities. For large orders we arrange phased delivery aligned to project progress.",
             ),
         },
     ],

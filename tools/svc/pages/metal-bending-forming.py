@@ -37,7 +37,7 @@ PAGE = {
             ("زوايا مضبوطة", "Exact angles", "target"),
             ("حساب بدلات الثني", "Bend allowance calculated", "file"),
             ("ستانلس · حديد · ألمنيوم", "Stainless · steel · aluminium", "layers"),
-            ("قطعة واحدة أو كمية", "One piece or a batch", "check"),
+            ("دفعات وكميات", "Batches and volumes", "check"),
         ],
         "img": (
             "assets/img/gallery/metal-forming.jpg",
@@ -400,8 +400,8 @@ PAGE = {
                 "icon": "user",
                 "h3": ("مرونة في الكميات", "Volume flexibility"),
                 "p": (
-                    "قطعة واحدة أو خمس مئة قطعة — نفس الاهتمام ونفس أسلوب التحقق.",
-                    "One piece or five hundred — the same care and the same verification method.",
+                    "دفعة تجريبية أو خمس مئة قطعة — نفس الاهتمام ونفس أسلوب التحقق.",
+                    "A trial batch or five hundred pieces — the same care and the same verification method.",
                 ),
             },
         ],

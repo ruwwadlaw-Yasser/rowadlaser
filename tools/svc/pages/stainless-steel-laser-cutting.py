@@ -300,8 +300,8 @@ PAGE = {
                 "icon": "user",
                 "h3": ("الأفراد والطلبات الخاصة", "Individuals and custom orders"),
                 "p": (
-                    "لوحة منزل، هدية محفورة، أو قطعة واحدة بديلة — نقبلها دون حد أدنى للكمية.",
-                    "A house plaque, an engraved gift, or a single replacement piece — accepted with no minimum quantity.",
+                    "لوحات أسماء ومداخل للمشاريع السكنية، ولوحات بديلة للمعدات — بالكميات وبأسماء أو أرقام مختلفة لكل قطعة.",
+                    "Name and entrance plates for residential projects, and replacement plates for equipment — in batches, with a different name or number on each piece.",
                 ),
             },
         ],
@@ -362,10 +362,10 @@ PAGE = {
             ),
         },
         {
-            "q": ("هل تقبلون قص لوح ستانلس واحد فقط؟", "Do you accept cutting a single stainless sheet?"),
+            "q": ("هل تقصّون الستانلس بالدفعات للمشاريع؟", "Do you cut stainless in batches for projects?"),
             "a": (
-                "نعم. نقبل القطعة الواحدة والطلبات الصغيرة بنفس دقة الطلبات الكبيرة، وهي من أكثر الطلبات التي تصلنا من الأفراد وأصحاب المحلات.",
-                "Yes. We accept single pieces and small orders with the same care as large ones — these are among the most common requests we receive from individuals and shop owners.",
+                "نعم. ننفّذ دفعات الستانلس للمقاولين والمصانع والمطاعم وأصحاب المحلات بنفس الدقة من أول قطعة إلى آخرها، مع فحص كل قطعة قبل التسليم.",
+                "Yes. We cut stainless batches for contractors, factories, restaurants and shop owners with the same precision from the first piece to the last, and every piece is inspected before delivery.",
             ),
         },
     ],

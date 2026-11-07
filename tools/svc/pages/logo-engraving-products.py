@@ -12,7 +12,7 @@ PAGE = {
         "Laser Logo Engraving on Products &amp; Corporate Gifts in Jeddah",
     ),
     "desc": (
-        "حفر شعار شركتك بالليزر على المنتجات المعدنية والهدايا الدعائية في جدة: ترامس، علب، أدوات، لوحات ومنتجاتك الخاصة. نقش دائم لا يبهت يرفع قيمة علامتك — بدون حد أدنى للطلب.",
+        "حفر شعار شركتك بالليزر على المنتجات المعدنية والهدايا الدعائية في جدة: ترامس، علب، أدوات، لوحات ومنتجاتك الخاصة. نقش دائم لا يبهت يرفع قيمة علامتك — بالدفعات والكميات.",
         "Laser engraving of your company logo on metal products and corporate gifts in Jeddah: flasks, cases, tools, plaques and your own products. Permanent marking that raises your brand's value.",
     ),
     "og_image": "assets/img/svc/engraved-brass-plate.jpg",
@@ -32,11 +32,11 @@ PAGE = {
         "eyebrow": ("شعارك على المعدن · جدة", "Your logo on metal · Jeddah"),
         "h1": ("حفر شعار شركتك بالليزر على المنتجات المعدنية", "Laser engraving your company logo on metal products"),
         "sub": (
-            "الملصق يقول إن المنتج مُعلَّم. الشعار المحفور في المعدن يقول إن المنتج لك. نحفر شعارك على منتجاتك أو على هدايا الشركة بنقش دائم عالي التباين — من قطعة واحدة إلى دفعة كاملة.",
-            "A sticker says the product has been labelled. A logo engraved into metal says the product is yours. We mark your logo on your products or corporate gifts with permanent, high-contrast engraving — from one piece to a full batch.",
+            "الملصق يقول إن المنتج مُعلَّم. الشعار المحفور في المعدن يقول إن المنتج لك. نحفر شعارك على منتجاتك أو على هدايا الشركة بنقش دائم عالي التباين — من دفعة تجريبية إلى إنتاج بالكميات.",
+            "A sticker says the product has been labelled. A logo engraved into metal says the product is yours. We mark your logo on your products or corporate gifts with permanent, high-contrast engraving — from a trial batch to volume production.",
         ),
         "chips": [
-            ("لا يوجد حد أدنى", "No minimum order", "check"),
+            ("دفعات وكميات", "Batch & volume orders", "check"),
             ("معاينة قبل التنفيذ", "Preview before production", "target"),
             ("نعيد رسم الشعار متجهاً", "We can redraw your logo as vector", "sliders"),
             ("جميع المعادن", "All metals", "layers"),
@@ -53,7 +53,7 @@ PAGE = {
         "wa": "مرحباً رواد الليزر، أرغب في عرض سعر لحفر شعار على منتجات.",
     },
     "facts": [
-        (("1", "1"), ("أقل عدد — قطعة واحدة", "Minimum — one piece")),
+        (("1", "1"), ("عيّنة معتمدة قبل تشغيل الدفعة", "Approved sample before the batch")),
         (("0.2 mm", "0.2 mm"), ("أدق تفصيل في الشعار", "Finest logo detail")),
         (("6", "6"), ("ساعات لبدء التنفيذ", "Hours to start production")),
         (("100%", "100%"), ("معاينة معتمدة قبل اللمس", "Approved preview before we touch the part")),
@@ -125,8 +125,8 @@ PAGE = {
                 "icon": "user",
                 "h3": ("الطلبات الشخصية المخصصة", "Personal custom orders"),
                 "p": (
-                    "هدية باسم شخص أو تاريخ أو رسالة قصيرة على قطعة معدنية — قطعة واحدة مقبولة.",
-                    "A gift with a name, a date or a short message on a metal piece — a single item is accepted.",
+                    "هدايا الشركات والمناسبات بأسماء الموظفين أو تاريخ أو رسالة قصيرة على قطع معدنية — بالكميات المطلوبة.",
+                    "Corporate and event gifts with staff names, a date or a short message on metal pieces — in the quantities you need.",
                 ),
             },
         ],
@@ -326,8 +326,8 @@ PAGE = {
     "cta": {
         "h2": ("شعارك محفور في المعدن، لا ملصقاً فوقه", "Your logo engraved into the metal, not stuck on it"),
         "p": (
-            "أرسل الشعار الآن واحصل على معاينة وعرض سعر — من قطعة واحدة.",
-            "Send your logo now and get a preview and a quote — from a single piece.",
+            "أرسل الشعار والكمية الآن واحصل على معاينة وعرض سعر.",
+            "Send your logo and quantity now and get a preview and a quote.",
         ),
         "wa": "مرحباً رواد الليزر، أرغب في عرض سعر لحفر شعار على منتجات.",
     },

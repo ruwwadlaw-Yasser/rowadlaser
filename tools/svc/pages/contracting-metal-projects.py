@@ -206,7 +206,7 @@ PAGE = {
         ],
         "note": (
             "لا نلتزم بكمية دنيا للدخول في المشروع، ولا نرفض المشروع الصغير — لكننا نوضّح بصراحة الجدول الذي نستطيع الالتزام به.",
-            "We do not require a minimum quantity to take on a project, and we do not turn small projects away — but we are candid about the schedule we can commit to.",
+            "Our workflow is built for batch and repeat orders — and we are candid about the schedule we can commit to.",
         ),
     },
     "gallery": {
@@ -427,10 +427,10 @@ PAGE = {
     },
     "faq": [
         {
-            "q": ("هل هناك حد أدنى للكمية لقبول المشروع؟", "Is there a minimum quantity to take on a project?"),
+            "q": ("كيف تتعاملون مع كميات المشاريع؟", "How do you handle project quantities?"),
             "a": (
-                "لا. نتعامل مع الطلبات المتوسطة والصغيرة بنفس جدية الكبيرة، وهذا من أسباب تعاملنا مع المقاولين الأفراد. الفرق يظهر في سعر القطعة فقط: الكميات الأكبر تحصل على سعر أفضل بحكم كفاءة استخدام اللوح.",
-                "No. We treat mid-size and small orders as seriously as large ones — one reason individual contractors work with us. The only difference is the per-piece price: larger volumes get a better rate through more efficient sheet use.",
+                "ندرس كل مشروع حسب نطاقه وكمياته. طريقة عملنا مبنية على الدفعات والطلبات المتكررة للمقاولين، والكمية تنعكس مباشرة على سعر القطعة: الكميات الأكبر تحصل على سعر أفضل بحكم كفاءة استخدام اللوح.",
+                "We review each project on its scope and quantities. Our workflow is built for batch and repeat orders for contractors, and volume shows directly in the per-piece price: larger quantities get a better rate through more efficient sheet use.",
             ),
         },
         {

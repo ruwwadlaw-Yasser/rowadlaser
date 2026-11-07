@@ -9,15 +9,15 @@ PAGE = {
         "Laser Metal Cutting in Jeddah | CNC Laser Cutting — Ruwwad Laser",
     ),
     "desc": (
-        "خدمة قص المعادن بالليزر CNC في جدة: قص الصفائح والستانلس والحديد والألمنيوم والنحاس بدقة ±0.1 مم وحواف نظيفة. نقبل القطعة الواحدة وكميات المشاريع — اطلب عرض سعر.",
-        "CNC laser metal cutting in Jeddah: stainless, steel, aluminium and copper sheets cut to ±0.1 mm with clean edges. Single pieces and project volumes welcome.",
+        "خدمة قص المعادن بالليزر CNC في جدة: قص الصفائح والستانلس والحديد والألمنيوم والنحاس بدقة ±0.1 مم وحواف نظيفة. دفعات إنتاج وكميات مشاريع — اطلب عرض سعر.",
+        "CNC laser metal cutting in Jeddah: stainless, steel, aluminium and copper sheets cut to ±0.1 mm with clean edges. Production batches and project volumes.",
     ),
     "og_image": "assets/img/svc/laser-cutting-machine-wide.jpg",
     "service_type": ("قص المعادن بالليزر CNC", "CNC laser metal cutting"),
     "schema_name": ("قص المعادن بالليزر في جدة", "Laser metal cutting in Jeddah"),
     "schema_desc": (
-        "قص الصفائح المعدنية بالليزر بدقة تصل إلى ±0.1 مم على الستانلس ستيل والحديد والألمنيوم والنحاس والصفائح المجلفنة، من القطعة الواحدة إلى كميات المشاريع، في جدة ومنطقة مكة المكرمة.",
-        "Laser sheet-metal cutting to ±0.1 mm on stainless steel, mild steel, aluminium, copper and galvanised sheet — from a single piece to project volumes, in Jeddah.",
+        "قص الصفائح المعدنية بالليزر بدقة تصل إلى ±0.1 مم على الستانلس ستيل والحديد والألمنيوم والنحاس والصفائح المجلفنة، من الدفعة التجريبية إلى كميات المشاريع، في جدة ومنطقة مكة المكرمة.",
+        "Laser sheet-metal cutting to ±0.1 mm on stainless steel, mild steel, aluminium, copper and galvanised sheet — from a trial batch to project volumes, in Jeddah.",
     ),
     "schema_offers": [
         ("قص الستانلس ستيل بالليزر", "Stainless steel laser cutting"),
@@ -37,7 +37,7 @@ PAGE = {
         "chips": [
             ("دقة ±0.1 مم", "±0.1 mm accuracy", "target"),
             ("أكثر من 10 أنواع معادن", "10+ metal types", "layers"),
-            ("بدون حد أدنى للطلب", "No minimum order", "check"),
+            ("دفعات وكميات مشاريع", "Batch & volume orders", "check"),
             ("DXF · DWG · PDF · صورة", "DXF · DWG · PDF · photo", "file"),
         ],
         "img": (
@@ -103,8 +103,8 @@ PAGE = {
                 "Design freedom: cut-out patterns, stencilled lettering, bolt holes in mixed diameters, and narrow strips that traditional methods struggle with.",
             ),
             (
-                "مرونة في الكمية: من قطعة واحدة لتجربة الفكرة، إلى دفعات متكررة لمشروع مستمر — بنفس الدقة وبنفس أسلوب المتابعة.",
-                "Volume flexibility: from one piece to test an idea, to repeat batches for an ongoing project — same accuracy, same follow-up.",
+                "مرونة في الكمية: من نموذج لتجربة الفكرة، إلى دفعات متكررة لمشروع مستمر — بنفس الدقة وبنفس أسلوب المتابعة.",
+                "Volume flexibility: from a sample to test an idea, to repeat batches for an ongoing project — same accuracy, same follow-up.",
             ),
         ],
         "paras2": [
@@ -148,7 +148,7 @@ PAGE = {
             },
             {
                 "icon": "sliders",
-                "h3": ("النماذج الأولية والقطعة الواحدة", "Prototypes and one-off parts"),
+                "h3": ("النماذج الأولية والدفعات التجريبية", "Prototypes and trial batches"),
                 "p": (
                     "تريد تجربة فكرة قبل الإنتاج؟ نقصّ لك نموذجاً واحداً لتراه وتلمسه وتعدّل عليه قبل الالتزام بأي كمية.",
                     "Want to test an idea before production? We cut a single sample so you can see it, handle it and adjust it before committing to a volume.",
@@ -336,8 +336,8 @@ PAGE = {
                 "icon": "user",
                 "h3": ("الطلبات الخاصة والهدايا", "Custom and gift items"),
                 "p": (
-                    "لوحة باسم، تصميم شخصي، أو قطعة فنية واحدة — نقبل الطلب الفردي دون شروط كمية.",
-                    "A name plate, a personal design, or a single art piece — individual orders accepted with no quantity condition.",
+                    "لوحات أسماء ولافتات وقطع بالشعار — بالدفعات، مع اسم أو رقم مختلف على كل قطعة عند الحاجة.",
+                    "Name plates, signage and branded pieces — produced in batches, with a different name or number on each piece where needed.",
                 ),
             },
         ],
@@ -415,10 +415,10 @@ PAGE = {
             },
             {
                 "icon": "sliders",
-                "h3": ("لا حد أدنى للكمية", "No minimum quantity"),
+                "h3": ("دفعات إنتاج متكررة", "Repeat production runs"),
                 "p": (
-                    "قطعة واحدة طلب مقبول تماماً، وتُعامل بنفس دقة طلب من خمس مئة قطعة.",
-                    "One piece is a perfectly acceptable order, treated with the same care as five hundred.",
+                    "دفعة من خمس مئة قطعة تُنفَّذ بنفس دقة القطعة الأولى، مع فحص كامل قبل التسليم.",
+                    "A run of five hundred pieces is held to the accuracy of the first, with full inspection before delivery.",
                 ),
             },
             {

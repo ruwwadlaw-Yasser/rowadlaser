@@ -11,15 +11,15 @@ PAGE = {
         "Laser Engraving in Jeddah | Metal Marking &amp; Engraving — Ruwwad Laser",
     ),
     "desc": (
-        "حفر ليزر في جدة (فايبر ماركينق) على جميع المعادن: نقش دائم لا يبهت للشعارات والأسماء والأرقام التسلسلية وأكواد QR ولوحات البيانات على الستانلس والحديد والألمنيوم والنحاس. بدون حد أدنى للطلب.",
-        "Laser engraving in Jeddah on every metal: permanent, fade-proof marking of logos, names, serial numbers, QR codes and data plates on stainless, steel, aluminium and brass. No minimum order.",
+        "حفر ليزر في جدة (فايبر ماركينق) على جميع المعادن: نقش دائم لا يبهت للشعارات والأسماء والأرقام التسلسلية وأكواد QR ولوحات البيانات على الستانلس والحديد والألمنيوم والنحاس. دفعات بالكميات وترقيم من Excel.",
+        "Laser engraving in Jeddah on every metal: permanent, fade-proof marking of logos, names, serial numbers, QR codes and data plates on stainless, steel, aluminium and brass. Batch orders with numbering from Excel.",
     ),
     "og_image": "assets/img/svc/laser-engraving-metals-range.jpg",
     "service_type": ("الحفر والنقش بالليزر على المعادن", "Laser engraving and marking on metal"),
     "schema_name": ("حفر ليزر على المعادن في جدة", "Laser engraving on metal in Jeddah"),
     "schema_desc": (
-        "خدمة الحفر والنقش بالليزر (فايبر ليزر) على المعادن في جدة: نقش دائم لا يزول للشعارات والنصوص والأرقام التسلسلية وأكواد QR والباركود ولوحات البيانات على الستانلس ستيل والحديد والألمنيوم والنحاس والبراص، بدون حد أدنى للكمية.",
-        "Fiber laser engraving and marking on metal in Jeddah: permanent marking of logos, text, serial numbers, QR codes, barcodes and data plates on stainless steel, mild steel, aluminium, copper and brass, with no minimum quantity.",
+        "خدمة الحفر والنقش بالليزر (فايبر ليزر) على المعادن في جدة: نقش دائم لا يزول للشعارات والنصوص والأرقام التسلسلية وأكواد QR والباركود ولوحات البيانات على الستانلس ستيل والحديد والألمنيوم والنحاس والبراص، لطلبات الكميات والدفعات المتكررة.",
+        "Fiber laser engraving and marking on metal in Jeddah: permanent marking of logos, text, serial numbers, QR codes, barcodes and data plates on stainless steel, mild steel, aluminium, copper and brass, for volume and repeat batch orders.",
     ),
     "schema_offers": [
         ("حفر ليزر على الستانلس ستيل", "Laser engraving on stainless steel"),
@@ -50,13 +50,13 @@ PAGE = {
         "eyebrow": ("حفر ونقش بالليزر · جدة", "Laser engraving · Jeddah"),
         "h1": ("حفر ونقش بالليزر على المعادن في جدة", "Laser engraving on metal in Jeddah"),
         "sub": (
-            "الحفر بالليزر يغيّر سطح المعدن نفسه، فالنتيجة لا تُمحى ولا تبهت ولا تتقشّر مثل الطباعة أو الملصقات. نحفر الشعارات والأسماء والأرقام التسلسلية وأكواد QR على الستانلس والحديد والألمنيوم والنحاس — من قطعة واحدة إلى آلاف القطع.",
-            "Laser engraving changes the metal surface itself, so the result never wipes off, fades or peels like print or stickers. We mark logos, names, serial numbers and QR codes on stainless, steel, aluminium and brass — from a single piece to thousands.",
+            "الحفر بالليزر يغيّر سطح المعدن نفسه، فالنتيجة لا تُمحى ولا تبهت ولا تتقشّر مثل الطباعة أو الملصقات. نحفر الشعارات والأسماء والأرقام التسلسلية وأكواد QR على الستانلس والحديد والألمنيوم والنحاس — من دفعة تجريبية إلى آلاف القطع.",
+            "Laser engraving changes the metal surface itself, so the result never wipes off, fades or peels like print or stickers. We mark logos, names, serial numbers and QR codes on stainless, steel, aluminium and brass — from a trial batch to thousands.",
         ),
         "chips": [
             ("نقش دائم لا يبهت", "Permanent, fade-proof", "shield"),
             ("جميع المعادن", "All metals", "layers"),
-            ("لا يوجد حد أدنى للطلب", "No minimum order", "check"),
+            ("دفعات وكميات", "Batch & volume orders", "check"),
             ("تفاصيل تصل إلى 0.2 مم", "Detail down to 0.2 mm", "target"),
         ],
         "img": (
@@ -73,7 +73,7 @@ PAGE = {
     "facts": [
         (("+10", "+10"), ("أنواع معادن نحفر عليها", "Metal types we mark")),
         (("0.2 mm", "0.2 mm"), ("أدق خط يمكن قراءته", "Finest readable line")),
-        (("1", "1"), ("أقل كمية نقبلها — قطعة واحدة", "Minimum order — one piece")),
+        (("1", "1"), ("عيّنة للاعتماد قبل تشغيل الدفعة", "Approval sample before each batch")),
         (("6", "6"), ("ساعات لبدء التنفيذ", "Hours to start production")),
     ],
     "intro": {
@@ -122,8 +122,8 @@ PAGE = {
         "eyebrow": ("ماذا نحفر", "What we engrave"),
         "h2": ("أكثر طلبات الحفر التي تصلنا في جدة", "The engraving requests we receive most in Jeddah"),
         "lead": (
-            "من لوحة بيانات واحدة لمصنع، إلى ألف قطعة تحمل شعار علامة تجارية — نفس الماكينة ونفس الدقة.",
-            "From a single data plate for a factory to a thousand pieces carrying a brand logo — the same machine and the same precision.",
+            "من دفعة لوحات بيانات لمصنع، إلى ألف قطعة تحمل شعار علامة تجارية — نفس الماكينة ونفس الدقة.",
+            "From a batch of data plates for a factory to a thousand pieces carrying a brand logo — the same machine and the same precision.",
         ),
         "items": [
             {
@@ -399,8 +399,8 @@ PAGE = {
                 "icon": "user",
                 "h3": ("الأفراد والطلبات الخاصة", "Individuals and custom orders"),
                 "p": (
-                    "لوحة باسم، هدية معدنية محفورة، أو قطعة واحدة فقط — نقبلها بلا حد أدنى للكمية.",
-                    "A name plaque, an engraved metal gift, or just one piece — accepted with no minimum quantity.",
+                    "لوحات أسماء ومكاتب، ودروع وهدايا الشركات المحفورة — بالكميات وبترقيم أو أسماء مختلفة لكل قطعة.",
+                    "Name and office plates, engraved awards and corporate gifts — in batches, with a different number or name on each piece.",
                 ),
             },
         ],
@@ -478,10 +478,10 @@ PAGE = {
             },
             {
                 "icon": "check",
-                "h3": ("لا يوجد حد أدنى للكمية", "No minimum quantity"),
+                "h3": ("دفعات إنتاج متكررة", "Repeat production runs"),
                 "p": (
-                    "قطعة واحدة تُنفَّذ بنفس جدّية ألف قطعة — كثير من الورش ترفض الطلبات الصغيرة، ونحن لا نرفضها.",
-                    "One piece is treated as seriously as a thousand — many workshops refuse small orders; we do not.",
+                    "دفعة من 50 لوحة تُنفَّذ بنفس دقة القطعة الأولى — نعتمد العيّنة معك ثم نشغّل الكمية كاملة.",
+                    "A batch of 50 plates is held to the precision of the first — we approve the sample with you, then run the full quantity.",
                 ),
             },
             {
@@ -580,10 +580,10 @@ PAGE = {
             ),
         },
         {
-            "q": ("هل تقبلون حفر قطعة واحدة فقط؟", "Do you accept engraving a single piece?"),
+            "q": ("هل تنفّذون حفر الدفعات والكميات المتكررة؟", "Do you handle batch and repeat engraving orders?"),
             "a": (
-                "نعم، ولا يوجد لدينا حد أدنى للكمية. نحفر قطعة واحدة بنفس الدقة والاهتمام اللذين نعطيهما لطلب من ألف قطعة. الفرق الوحيد أن تكلفة القطعة الواحدة أعلى نسبياً لأن وقت الإعداد والبرمجة يتم مرة واحدة سواء كانت قطعة أم مئة.",
-                "Yes, and we have no minimum quantity. We engrave a single piece with the same precision and care we give a thousand-piece order. The only difference is that a single piece costs relatively more, since setup and programming time is the same whether it is one piece or a hundred.",
+                "نعم، وهي من أكثر طلباتنا: دفعات لوحات وبطاقات (مثل 25–50 قطعة فأكثر) بنفس الدقة من أول قطعة إلى آخرها. وكلما زادت الكمية انخفض سعر القطعة بوضوح، لأن وقت الإعداد والبرمجة يتم مرة واحدة سواء كانت الدفعة عشر قطع أم مئة.",
+                "Yes — they are among our most common orders: batches of plates and tags (e.g. 25–50+ pieces) with the same precision from the first piece to the last. The larger the quantity, the lower the per-piece price, since setup and programming time is the same whether the batch is ten pieces or a hundred.",
             ),
         },
         {
@@ -603,8 +603,8 @@ PAGE = {
         {
             "q": ("كم يستغرق تنفيذ طلب الحفر؟", "How long does an engraving order take?"),
             "a": (
-                "نبدأ التنفيذ خلال ٦ ساعات من اعتماد عرض السعر والتصميم. الطلبات الصغيرة (قطعة إلى عشرات القطع) تُسلَّم عادةً في نفس اليوم أو اليوم التالي. الكميات الكبيرة تعتمد على العدد وعلى كثافة التصميم، ونحدّد لك موعداً واضحاً في عرض السعر ونلتزم به.",
-                "We begin production within 6 hours of the quote and design being approved. Small orders (one piece to a few dozen) are normally delivered the same or next day. Larger volumes depend on the count and design density; we commit to a clear date in the quote and hold to it.",
+                "نبدأ التنفيذ خلال ٦ ساعات من اعتماد عرض السعر والتصميم. الدفعات المحدودة (حتى عشرات القطع) تُسلَّم عادةً في نفس اليوم أو اليوم التالي. الكميات الكبيرة تعتمد على العدد وعلى كثافة التصميم، ونحدّد لك موعداً واضحاً في عرض السعر ونلتزم به.",
+                "We begin production within 6 hours of the quote and design being approved. Limited batches (up to a few dozen pieces) are normally delivered the same or next day. Larger volumes depend on the count and design density; we commit to a clear date in the quote and hold to it.",
             ),
         },
         {
@@ -640,8 +640,8 @@ PAGE = {
     "cta": {
         "h2": ("نقش يبقى ما بقيت القطعة", "A mark that lasts as long as the part"),
         "p": (
-            "أرسل تصميمك الآن واحصل على معاينة وعرض سعر — بدون أي التزام، ومن قطعة واحدة.",
-            "Send your design now and get a preview and a quote — with no obligation, from a single piece.",
+            "أرسل تصميمك والكمية الآن واحصل على معاينة وعرض سعر — بدون أي التزام.",
+            "Send your design and quantity now and get a preview and a quote — with no obligation.",
         ),
         "wa": "مرحباً رواد الليزر، أرغب في عرض سعر لخدمة الحفر بالليزر على المعادن.",
     },

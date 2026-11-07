@@ -39,7 +39,7 @@ PAGE = {
             ("طلبات ترفضها ورش أخرى", "Jobs others refuse", "check"),
             ("ليزر فايبر للمعادن العاكسة", "Fibre laser for reflective metals", "bolt"),
             ("حواف حادة للزخرفة", "Sharp decorative edges", "target"),
-            ("القطعة الواحدة مقبولة", "Single pieces welcome", "user"),
+            ("دفعات وكميات", "Batch orders welcome", "user"),
         ],
         "img": (
             "assets/img/svc/metal-material-samples.jpg",
@@ -56,7 +56,7 @@ PAGE = {
         (("Cu", "Cu"), ("نحاس أحمر خالص", "Pure red copper")),
         (("Cu+Zn", "Cu+Zn"), ("البراص: نحاس وزنك", "Brass: copper and zinc")),
         (("Fiber", "Fiber"), ("التقنية المناسبة للعاكس", "The right tech for reflective metal")),
-        (("1", "1"), ("لا حد أدنى للكمية", "No minimum quantity")),
+        (("1", "1"), ("دفعات إنتاج متكررة", "Repeat production runs")),
     ],
     "intro": {
         "h2": ("ما الفرق بين النحاس والبراص؟", "What is the difference between copper and brass?"),
@@ -129,7 +129,7 @@ PAGE = {
                 "h3": ("هدايا ودروع تذكارية", "Gifts and commemorative awards"),
                 "p": (
                     "قطع فردية بتصميم خاص، يمكن دمج القص مع الحفر لإضافة الأسماء والتواريخ.",
-                    "One-off pieces with a custom design, combining cutting with engraving to add names and dates.",
+                    "Custom-designed pieces in batches, combining cutting with engraving to add names, numbers and dates.",
                 ),
                 "href": "laser-engraving-jeddah.html",
                 "more": ("حفر ونقش بالليزر على المعادن", "Laser engraving on metal"),
@@ -257,8 +257,8 @@ PAGE = {
                 "icon": "user",
                 "h3": ("الأفراد وهواة الجمع", "Individuals and collectors"),
                 "p": (
-                    "قطعة واحدة بتصميم خاص: هدية، درع، أو لوحة تذكارية بمعدن مميز.",
-                    "A single custom piece: a gift, an award, or a commemorative plaque in a distinctive metal.",
+                    "دروع ولوحات تذكارية وتكريمية بتصميم خاص للجهات والشركات، بمعدن مميز وبالكميات المطلوبة.",
+                    "Custom awards and commemorative plaques for organisations and companies, in a distinctive metal and in the quantities you need.",
                 ),
             },
         ],
@@ -312,10 +312,10 @@ PAGE = {
             ),
         },
         {
-            "q": ("هل تقبلون طلب قطعة نحاسية واحدة؟", "Do you accept a single copper piece?"),
+            "q": ("هل تنفّذون قطع النحاس والبراص بالكميات؟", "Do you produce copper and brass parts in batches?"),
             "a": (
-                "نعم، ولا يوجد حد أدنى للكمية. كثير من طلبات النحاس تصلنا كقطعة واحدة لهدية أو لوحة أو ترميم قطعة قديمة، ونتعامل معها بنفس الاهتمام.",
-                "Yes, with no minimum quantity. Many copper requests reach us as a single piece for a gift, a plaque, or restoring an old part — and we treat them with the same care.",
+                "نعم، وننفّذ طلبات النحاس والبراص بالكميات والدفعات المتكررة: لوحات ودروع وقطع ديكور ومكونات للمشاريع، ونفحص كل قطعة قبل التسليم.",
+                "Yes — we produce copper and brass in volume and repeat batches: plates, awards, décor pieces and project components, with every piece inspected before delivery.",
             ),
         },
         {
@@ -342,8 +342,8 @@ PAGE = {
     "cta": {
         "h2": ("نقبل الطلبات التي يرفضها غيرنا", "We accept the jobs others turn down"),
         "p": (
-            "نحاس أو براص، قطعة واحدة أو كمية — أرسل التفاصيل واحصل على سعر واضح.",
-            "Copper or brass, one piece or a batch — send the details and get a clear price.",
+            "نحاس أو براص، دفعة تجريبية أو كميات — أرسل التفاصيل واحصل على سعر واضح.",
+            "Copper or brass, a trial batch or volume — send the details and get a clear price.",
         ),
         "wa": "مرحباً رواد الليزر، أرغب في عرض سعر لقص نحاس أو براص بالليزر.",
     },

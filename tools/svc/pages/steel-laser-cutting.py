@@ -12,8 +12,8 @@ PAGE = {
         "Steel Laser Cutting in Jeddah | Mild &amp; Carbon Steel — Ruwwad Laser",
     ),
     "desc": (
-        "قص الحديد الأسود والكربوني بالليزر في جدة: هياكل، قواعد، ألواح تثبيت وقطع إنشائية بدقة ±0.1 مم وسعر اقتصادي. نقبل القطعة الواحدة وكميات المقاولات.",
-        "Mild and carbon steel laser cutting in Jeddah: frames, base plates, brackets and structural parts at ±0.1 mm and an economical price. Single pieces and contractor volumes.",
+        "قص الحديد الأسود والكربوني بالليزر في جدة: هياكل، قواعد، ألواح تثبيت وقطع إنشائية بدقة ±0.1 مم وسعر اقتصادي. دفعات إنتاج وكميات مقاولات.",
+        "Mild and carbon steel laser cutting in Jeddah: frames, base plates, brackets and structural parts at ±0.1 mm and an economical price. Production batches and contractor volumes.",
     ),
     "og_image": "assets/img/gallery/laser-cutting.jpg",
     "service_type": ("قص الحديد بالليزر", "Steel laser cutting"),
@@ -55,7 +55,7 @@ PAGE = {
     "facts": [
         (("±0.1 mm", "±0.1 mm"), ("مطابقة القياسات", "Dimensional accuracy")),
         (("6h", "6h"), ("لبدء التنفيذ بعد الاعتماد", "To start production")),
-        (("1", "1"), ("قطعة واحدة طلب مقبول", "One piece is a valid order")),
+        (("1", "1"), ("من النموذج إلى الدفعات", "From prototype to batches")),
         (("100%", "100%"), ("فحص قبل التسليم", "Inspected before delivery")),
     ],
     "intro": {

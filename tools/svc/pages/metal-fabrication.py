@@ -406,8 +406,8 @@ PAGE = {
                 "icon": "sliders",
                 "h3": ("مرونة في الكميات", "Volume flexibility"),
                 "p": (
-                    "من قطعة واحدة إلى دفعات متكرّرة لمشاريع مستمرة — بنفس أسلوب المتابعة.",
-                    "From a single piece to repeat batches for ongoing projects — with the same follow-up.",
+                    "من دفعة تجريبية إلى دفعات متكرّرة لمشاريع مستمرة — بنفس أسلوب المتابعة.",
+                    "From a trial batch to repeat batches for ongoing projects — with the same follow-up.",
                 ),
             },
             {

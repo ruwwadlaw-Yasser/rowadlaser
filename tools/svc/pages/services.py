@@ -75,7 +75,7 @@ PAGE = {
         (("8", "8"), ("خدمات رئيسية مستقلة", "Dedicated main services")),
         (("+10", "+10"), ("أنواع معادن نعمل عليها", "Metal types we work with")),
         (("6h", "6h"), ("لبدء التنفيذ بعد الاعتماد", "To start production")),
-        (("1", "1"), ("قطعة واحدة طلب مقبول", "One piece is a valid order")),
+        (("1", "1"), ("من النموذج إلى الدفعات", "From prototype to batches")),
     ],
     "intro": {
         "h2": ("كيف تختار الخدمة المناسبة لطلبك؟", "How to choose the right service for your request"),
@@ -148,8 +148,8 @@ PAGE = {
                 "more": ("تفاصيل خدمة الحفر بالليزر", "Laser engraving details"),
                 "h3": ("حفر ونقش بالليزر على المعادن", "Laser engraving on metal"),
                 "p": (
-                    "حفر ليزر دائم لا يبهت: شعارات وأسماء وأرقام تسلسلية وأكواد QR ولوحات بيانات على الستانلس والحديد والألمنيوم والنحاس — بلا حد أدنى للطلب.",
-                    "Permanent laser engraving that never fades: logos, names, serial numbers, QR codes and data plates on stainless, steel, aluminium and brass — with no minimum order.",
+                    "حفر ليزر دائم لا يبهت: شعارات وأسماء وأرقام تسلسلية وأكواد QR ولوحات بيانات على الستانلس والحديد والألمنيوم والنحاس — مثالي لدفعات اللوحات والبطاقات بالكميات.",
+                    "Permanent laser engraving that never fades: logos, names, serial numbers, QR codes and data plates on stainless, steel, aluminium and brass — for batch and volume orders.",
                 ),
             },
             {
@@ -158,8 +158,8 @@ PAGE = {
                 "more": ("تفاصيل الحلول المخصصة", "Custom solutions details"),
                 "h3": ("الحلول المخصصة حسب الطلب", "Custom-made solutions"),
                 "p": (
-                    "قطعة واحدة أو فكرة على ورقة أو قطعة قديمة توقّف إنتاجها — نحوّلها إلى منتج معدني يعمل، بلا حد أدنى للكمية.",
-                    "A single piece, an idea on paper, or a discontinued part — turned into a working metal product, with no minimum order.",
+                    "فكرة على ورقة، أو قطعة قديمة توقّف إنتاجها، أو تصميم خاص لمشروعك — نحوّلها إلى منتج معدني يعمل، من النموذج إلى الإنتاج بالكميات.",
+                    "An idea on paper, a discontinued part, or a custom design for your project — turned into a working metal product, from prototype to volume production.",
                 ),
             },
             {
@@ -448,10 +448,10 @@ PAGE = {
             },
             {
                 "icon": "user",
-                "h3": ("الأفراد", "Individuals"),
+                "h3": ("المكاتب الهندسية والمصممون", "Design offices"),
                 "p": (
-                    "الطلبات الخاصة والقطعة الواحدة — لوحة، هدية، أو تصميم خاص.",
-                    "Custom and one-off requests — a plate, a gift, or a special design.",
+                    "تنفيذ تصاميم عملائهم الخاصة — لوحات وشعارات وعناصر معدنية — من النموذج المعتمد إلى الكمية.",
+                    "Producing their clients' bespoke designs — plates, logos and metal elements — from the approved sample to full quantity.",
                 ),
             },
         ],
@@ -502,8 +502,8 @@ PAGE = {
                     "Metal type and thickness — and if you are unsure, we will advise.",
                 ),
                 (
-                    "الكمية المطلوبة — من قطعة واحدة إلى كميات المشاريع.",
-                    "The quantity — from a single piece to project volumes.",
+                    "الكمية المطلوبة — من دفعة تجريبية إلى كميات المشاريع.",
+                    "The quantity — from a trial batch to project volumes.",
                 ),
                 (
                     "الموعد المطلوب — لنرتّب جدول التنفيذ على أساسه.",
@@ -528,8 +528,8 @@ PAGE = {
                 "icon": "sliders",
                 "h3": ("المرونة", "Flexibility"),
                 "p": (
-                    "نقبل الطلبات الصغيرة وغير المعتادة التي ترفضها ورش أخرى — حتى القطعة الواحدة.",
-                    "We accept the small, unusual orders other workshops turn down — down to a single piece.",
+                    "ننفّذ دفعات الإنتاج المتكررة والطلبات غير المعتادة بمواصفات خاصة — من دفعة تجريبية إلى إنتاج بالكميات.",
+                    "We take on repeat production runs and unusual, spec-driven orders — from a trial batch to volume production.",
                 ),
             },
             {
@@ -603,10 +603,10 @@ PAGE = {
             ),
         },
         {
-            "q": ("هل تقبلون الطلبات الصغيرة أو القطعة الواحدة؟", "Do you accept small or single-piece orders?"),
+            "q": ("هل تنفّذون طلبات الكميات والدفعات المتكررة؟", "Do you accept small or single-piece orders?"),
             "a": (
-                "نعم، ولا يوجد حد أدنى للكمية. من أهم ما يميّزنا مرونتنا في قبول الطلبات الصغيرة وغير المعتادة التي قد ترفضها ورش أخرى — وتُعامل بنفس دقة الطلبات الكبيرة.",
-                "Yes, with no minimum quantity. One of our key advantages is accepting small and unusual orders other workshops may refuse — treated with the same accuracy as large ones.",
+                "نعم، وهي محور عملنا: ننفّذ دفعات إنتاج متكررة (مثل 25–50 لوحة أو قطعة فأكثر) لشركات المقاولات والمصانع والمشاريع، ونبدأ عند الحاجة بدفعة تجريبية للاعتماد قبل الإنتاج بالكميات.",
+                "Yes — it is the core of our work: we run repeat production batches (e.g. 25–50+ plates or parts) for contractors, factories and projects, starting with a trial batch for approval where needed before volume production.",
             ),
         },
         {

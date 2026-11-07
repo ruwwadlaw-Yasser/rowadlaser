@@ -9,31 +9,31 @@ PAGE = {
         "Custom Metal Solutions in Jeddah | From Idea to Finished Part",
     ),
     "desc": (
-        "تصنيع معدني مخصص حسب الطلب في جدة: نحوّل فكرتك أو رسمك أو قطعتك القديمة إلى منتج معدني جاهز. قطعة واحدة أو تصميم خاص — بلا حد أدنى للكمية.",
-        "Custom metal fabrication in Jeddah: we turn your idea, sketch or old part into a finished metal product. One-off pieces and bespoke designs — no minimum order.",
+        "تصنيع معدني مخصص حسب الطلب في جدة: نحوّل فكرتك أو رسمك أو قطعتك القديمة إلى منتج معدني جاهز، من نموذج للاعتماد إلى إنتاج بالكميات.",
+        "Custom metal fabrication in Jeddah: we turn your idea, sketch or old part into a finished metal product — from an approval prototype to volume production.",
     ),
     "og_image": "assets/img/svc/custom-metal-solutions-range.jpg",
     "service_type": ("الحلول المعدنية المخصصة حسب الطلب", "Custom-made metal solutions"),
     "schema_name": ("حلول معدنية مخصصة حسب الطلب في جدة", "Custom metal solutions in Jeddah"),
     "schema_desc": (
-        "تحويل الفكرة أو المخطط أو القطعة القديمة إلى منتج معدني جاهز: تصميم، قص، تشكيل، لحام وتجميع، مع قبول القطعة الواحدة والطلبات غير المعتادة في جدة ومنطقة مكة المكرمة.",
-        "Turning an idea, drawing or old part into a finished metal product: design, cutting, forming, welding and assembly — accepting single pieces and unusual requests in Jeddah.",
+        "تحويل الفكرة أو المخطط أو القطعة القديمة إلى منتج معدني جاهز: تصميم، قص، تشكيل، لحام وتجميع، من النموذج الأولي إلى الدفعات المتكررة في جدة ومنطقة مكة المكرمة.",
+        "Turning an idea, drawing or old part into a finished metal product: design, cutting, forming, welding and assembly — from prototype to repeat batches in Jeddah.",
     ),
     "schema_offers": [
-        ("تصنيع قطعة واحدة حسب الطلب", "One-off custom fabrication"),
+        ("تصنيع مخصص من النموذج إلى الدفعات", "Custom fabrication from prototype to batch"),
         ("تحويل رسم يدوي إلى منتج معدني", "Turning a sketch into a metal product"),
         ("إعادة تصنيع قطعة قديمة", "Reproducing a discontinued part"),
         ("تصميم وتنفيذ نماذج أولية", "Prototype design and production"),
     ],
     "hero": {
-        "eyebrow": ("حلول مخصصة · بلا حد أدنى", "Custom solutions · no minimum"),
+        "eyebrow": ("حلول مخصصة · من النموذج إلى الكميات", "Custom solutions · prototype to volume"),
         "h1": ("حلول معدنية مخصصة حسب الطلب", "Custom-made metal solutions"),
         "sub": (
-            "بعض الطلبات لا تجد لها مكاناً: قطعة واحدة، تصميم غريب، قطعة قديمة توقّف إنتاجها، أو فكرة على ورقة. هذه الطلبات تحديداً هي ما نرحّب به — نحوّلها من فكرة إلى قطعة معدنية تعمل.",
-            "Some requests have nowhere to go: a single piece, an odd design, a discontinued part, or an idea on a scrap of paper. Those are exactly the requests we welcome — and turn from a thought into a working metal part.",
+            "بعض الطلبات لا تجد لها مكاناً: قطع بمقاسات خاصة لمشروع، تصميم غريب، قطعة قديمة توقّف إنتاجها، أو فكرة على ورقة. هذه الطلبات تحديداً هي ما نرحّب به — نحوّلها من فكرة إلى قطعة معدنية تعمل.",
+            "Some requests have nowhere to go: custom-sized parts for a project, an odd design, a discontinued part, or an idea on a scrap of paper. Those are exactly the requests we welcome — and turn from a thought into a working metal part.",
         ),
         "chips": [
-            ("قطعة واحدة مقبولة", "Single pieces welcome", "check"),
+            ("من النموذج إلى الدفعات", "Batch orders welcome", "check"),
             ("رسم يدوي يكفي", "A hand sketch is enough", "file"),
             ("نساعدك في تجهيز المخطط", "We help prepare the drawing", "sliders"),
             ("طلبات غير معتادة", "Unusual requests", "target"),
@@ -50,8 +50,8 @@ PAGE = {
         "wa": "مرحباً رواد الليزر، لدي فكرة أو تصميم خاص وأرغب في تنفيذه معدنياً.",
     },
     "facts": [
-        (("1", "1"), ("قطعة واحدة طلب مقبول", "One piece is a valid order")),
-        (("0", "0"), ("حد أدنى للكمية", "Minimum order quantity")),
+        (("1", "1"), ("من النموذج إلى الدفعات", "From prototype to batches")),
+        (("25+", "25+"), ("قطعة لكل دفعة إنتاج معتادة", "Pieces in a typical production batch")),
         (("6h", "6h"), ("لبدء التنفيذ بعد الاعتماد", "To start production")),
         (("+10", "+10"), ("أنواع معادن للاختيار", "Metals to choose from")),
     ],
@@ -59,8 +59,8 @@ PAGE = {
         "h2": ("لماذا تُرفض الطلبات الخاصة عادةً؟", "Why custom requests usually get refused"),
         "paras": [
             (
-                "ورشة التصنيع تحقّق ربحها من التكرار: إعداد الماكينة مرة واحدة ثم إنتاج مئات القطع. الطلب الفردي يقلب هذه المعادلة — وقت إعداد كامل مقابل قطعة واحدة. لهذا يُقال لصاحب الطلب الصغير: الكمية قليلة، أو لا نشتغل هذا النوع، أو ببساطة لا يُرد على رسالته.",
-                "A fabrication shop makes its margin on repetition: set the machine up once, then produce hundreds of parts. A one-off request inverts that equation — a full setup for a single piece. So the small customer hears: the quantity is too low, we do not do this type, or simply gets no reply.",
+                "كثير من الورش تعمل بمنتجات قياسية جاهزة، فإذا احتاج المشروع قطعاً بمقاس أو تصميم خاص — حتى بكميات — يسمع صاحب الطلب: لا نشتغل هذا النوع، أو المدة طويلة، أو ببساطة لا يُرد على رسالته.",
+                "Many shops work with standard, off-the-shelf products. When a project needs parts with a custom size or design — even in volume — the client hears: we do not do this type, it will take too long, or simply gets no reply.",
             ),
             (
                 "نحن نتعامل مع هذه الطلبات كجزء أساسي من عملنا لا كاستثناء. طلبك الصغير اليوم قد يكون مشروعاً متكرّراً بعد سنة، والأهم أن قيمة الخدمة الحقيقية تظهر حين تحتاج شيئاً لا تجده جاهزاً في السوق — لا حين تطلب ما هو متوفر في كل مكان.",
@@ -265,10 +265,10 @@ PAGE = {
         "items": [
             {
                 "icon": "check",
-                "h3": ("لا نرفض بسبب الكمية", "We do not refuse on quantity"),
+                "h3": ("من النموذج إلى الكمية", "From prototype to volume"),
                 "p": (
-                    "قطعة واحدة طلب مشروع تماماً، وتُعامل بنفس الجدية لا كخدمة مجاملة.",
-                    "One piece is a perfectly legitimate order, treated with the same seriousness — not as a favour.",
+                    "نبدأ معك بنموذج أو دفعة تجريبية للاعتماد، ثم ننتقل إلى الإنتاج بالكميات بنفس الجدية والمتابعة.",
+                    "We can start with a prototype or a trial batch for approval, then move to volume production with the same seriousness and follow-up.",
                 ),
             },
             {
@@ -339,7 +339,7 @@ PAGE = {
             ),
         },
         {
-            "q": ("كم تكلفة تنفيذ قطعة واحدة؟", "How much does a single piece cost?"),
+            "q": ("كم تكلفة تنفيذ طلب مخصص؟", "How much does a custom order cost?"),
             "a": (
                 "تعتمد على المعدن والمقاس وعدد المراحل (قص فقط أم قص وثني ولحام). أرسل التفاصيل ونعطيك سعراً واضحاً قبل أي التزام — ولن نبدأ التنفيذ قبل موافقتك على السعر.",
                 "It depends on the metal, the size and the number of stages (cutting only, or cutting plus bending and welding). Send the details and we will give a clear price before any commitment — we never start before you approve it.",
@@ -369,7 +369,7 @@ PAGE = {
     ],
     "form_services": [
         ("طلب مخصص حسب الطلب", "Custom-made request"),
-        ("قطعة واحدة / نموذج", "One-off piece / prototype"),
+        ("نموذج أولي / دفعة تجريبية", "Prototype / trial batch"),
         ("إعادة تصنيع قطعة قديمة", "Reproducing an old part"),
         ("حل لمساحة بمقاس خاص", "A solution for a bespoke space"),
         ("هدية أو درع معدني", "Metal gift or award"),

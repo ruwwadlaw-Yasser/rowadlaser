@@ -324,8 +324,8 @@ PAGE = {
                 "icon": "shield",
                 "h3": ("فحص لكل طلب", "Inspection on every order"),
                 "p": (
-                    "الفحص ليس خدمة إضافية للطلبات الكبيرة — هو جزء من كل طلب حتى القطعة الواحدة.",
-                    "Inspection is not an add-on for big orders — it is part of every order, down to a single piece.",
+                    "الفحص ليس خدمة إضافية للطلبات الكبيرة — هو جزء من كل طلب، وتُفحص كل قطعة في الدفعة.",
+                    "Inspection is not an add-on for big orders — it is part of every order, with every piece in the batch checked.",
                 ),
             },
             {

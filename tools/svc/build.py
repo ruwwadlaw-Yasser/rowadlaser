@@ -22,7 +22,7 @@ SITE = os.path.dirname(os.path.dirname(HERE))
 PAGES_DIR = os.path.join(HERE, "pages")
 BASE = "https://rowadlaser.com/"
 CSS_V = "7"
-JS_V = "5"
+JS_V = "6"
 
 # ============================================================
 #  أدوات مساعدة
@@ -506,6 +506,10 @@ def sec_quote(p):
           <div class="field">
             <label {bi("الخدمة المطلوبة", "Service needed")}</label>
             <select name="service">{opts}</select>
+          </div>
+          <div class="form-row">
+            <div class="field"><label data-ar="جهة الطلب" data-en="Ordering for">جهة الطلب</label><select name="org"><option value="" data-ar="اختر…" data-en="Choose…">اختر…</option><option data-ar="شركة / مؤسسة" data-en="Company">شركة / مؤسسة</option><option data-ar="مقاول" data-en="Contractor">مقاول</option><option data-ar="مصنع / ورشة" data-en="Factory / workshop">مصنع / ورشة</option><option data-ar="مطعم / فندق / مستشفى" data-en="Restaurant / hotel / hospital">مطعم / فندق / مستشفى</option><option data-ar="فرد" data-en="Individual">فرد</option></select></div>
+            <div class="field"><label data-ar="الكمية التقريبية" data-en="Approximate quantity">الكمية التقريبية</label><select name="qty"><option value="" data-ar="اختر…" data-en="Choose…">اختر…</option><option data-ar="أقل من 10 قطع" data-en="Under 10 pieces">أقل من 10 قطع</option><option data-ar="10 – 24 قطعة" data-en="10 – 24 pieces">10 – 24 قطعة</option><option data-ar="25 – 50 قطعة" data-en="25 – 50 pieces">25 – 50 قطعة</option><option data-ar="50 – 200 قطعة" data-en="50 – 200 pieces">50 – 200 قطعة</option><option data-ar="أكثر من 200 قطعة" data-en="200+ pieces">أكثر من 200 قطعة</option><option data-ar="غير محددة بعد" data-en="Not sure yet">غير محددة بعد</option></select></div>
           </div>
           <div class="field"><label {bi("تفاصيل الطلب", "Request details")}</label><textarea name="message" data-ar-ph="اشرح لنا نوع المعدن، السماكة، الكمية، القياسات، والموعد المطلوب…" data-en-ph="Tell us the metal type, thickness, quantity, dimensions, and deadline…" placeholder="اشرح لنا نوع المعدن، السماكة، الكمية، القياسات، والموعد المطلوب…"></textarea></div>
           <button type="submit" class="btn btn-primary btn-block btn-lg">{ico('wa')}<span {bi("إرسال عبر واتساب", "Send via WhatsApp")}</span></button>

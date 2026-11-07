@@ -157,7 +157,7 @@ PAGE = {
             {
                 "icon": "engrave",
                 "h3": ("تاقات وميداليات", "Tags and keychains"),
-                "p": ("تاقات معدنية، ميداليات مفاتيح، وتاقات للحيوانات والأصول.", "Metal tags, keychains, pet tags and asset tags."),
+                "p": ("تاقات أصول ومعدات، ترقيم أدوات، وميداليات بشعار الشركة.", "Asset and equipment tags, tool numbering and logo keychains."),
                 "href": "engraved-tags.html",
                 "more": ("التاقات المعدنية", "Metal tags"),
             },
@@ -259,8 +259,8 @@ PAGE = {
         {
             "q": ("كم تستغرق طلبية تاقات لمشروع كامل؟", "How long does a full project tag order take?"),
             "a": (
-                "يبدأ التنفيذ خلال 6 ساعات من اعتماد المعاينة. الطلبات الصغيرة تُسلَّم عادة في يوم أو يومين، والطلبات الكبيرة نحدّد لها جدولاً واضحاً مع عرض السعر، ويمكن التسليم على دفعات حسب أولويات المشروع.",
-                "Production starts within 6 hours of proof approval. Small orders usually ship in a day or two; large ones get a clear schedule with the quote, and can be delivered in batches by project priority.",
+                "يبدأ التنفيذ خلال 6 ساعات من اعتماد المعاينة. الدفعات المحدودة تُسلَّم عادة في يوم أو يومين، والطلبات الكبيرة نحدّد لها جدولاً واضحاً مع عرض السعر، ويمكن التسليم على دفعات حسب أولويات المشروع.",
+                "Production starts within 6 hours of proof approval. Limited batches usually ship in a day or two; large ones get a clear schedule with the quote, and can be delivered in batches by project priority.",
             ),
         },
         {

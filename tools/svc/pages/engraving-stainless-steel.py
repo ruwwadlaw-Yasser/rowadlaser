@@ -12,7 +12,7 @@ PAGE = {
         "Laser Engraving on Stainless Steel in Jeddah | 304 &amp; 316 — Ruwwad Laser",
     ),
     "desc": (
-        "حفر ونقش بالليزر على الستانلس ستيل في جدة: نقش أسود عالي التباين على 304 و316 لا يبهت ولا يؤثر على مقاومة الصدأ. شعارات، أسماء، أرقام تسلسلية ولوحات بيانات — بدون حد أدنى.",
+        "حفر ونقش بالليزر على الستانلس ستيل في جدة: نقش أسود عالي التباين على 304 و316 لا يبهت ولا يؤثر على مقاومة الصدأ. شعارات، أسماء، أرقام تسلسلية ولوحات بيانات — بالدفعات والكميات.",
         "Laser engraving and marking on stainless steel in Jeddah: high-contrast black marking on 304 and 316 that never fades and does not harm corrosion resistance. Logos, names, serials and data plates.",
     ),
     "og_image": "assets/img/svc/engraved-stainless-nameplate.jpg",

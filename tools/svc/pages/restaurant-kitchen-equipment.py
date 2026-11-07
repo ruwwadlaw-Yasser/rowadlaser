@@ -365,8 +365,8 @@ PAGE = {
         {
             "q": ("هل تنفّذون تجهيز مطبخ كامل أم وحدات منفصلة؟", "Do you fit out a whole kitchen or supply single units?"),
             "a": (
-                "الاثنان. نقبل طلب طاولة واحدة، كما ننفّذ تجهيز مطبخ كامل بقائمة وحدات وجدول تسليم على مراحل يناسب موعد الافتتاح.",
-                "Both. We accept an order for a single table, and we also deliver a full kitchen fit-out with a unit list and phased delivery aligned to the opening date.",
+                "الاثنان. نورّد الوحدات المنفصلة حسب الحاجة، كما ننفّذ تجهيز مطبخ كامل بقائمة وحدات وجدول تسليم على مراحل يناسب موعد الافتتاح.",
+                "Both. We supply individual units as needed, and we also deliver a full kitchen fit-out with a unit list and phased delivery aligned to the opening date.",
             ),
         },
         {

@@ -132,12 +132,18 @@
              'الاسم: ' + (d.get('name') || ''),
              'الجوال: ' + (d.get('phone') || ''),
              'الخدمة: ' + (d.get('service') || ''),
-             'التفاصيل: ' + (d.get('message') || '')]
+             'جهة الطلب: ' + (d.get('org') || '—'),
+             'الكمية التقريبية: ' + (d.get('qty') || '—'),
+             'التفاصيل: ' + (d.get('message') || ''),
+             '', 'الصفحة: ' + location.pathname]
           : ['Quote request — Ruwwad Laser', '',
              'Name: ' + (d.get('name') || ''),
              'Phone: ' + (d.get('phone') || ''),
              'Service: ' + (d.get('service') || ''),
-             'Details: ' + (d.get('message') || '')];
+             'Ordering for: ' + (d.get('org') || '—'),
+             'Approx. quantity: ' + (d.get('qty') || '—'),
+             'Details: ' + (d.get('message') || ''),
+             '', 'Page: ' + location.pathname];
         var url = 'https://wa.me/' + wa + '?text=' + encodeURIComponent(lines.join('\n'));
         window.open(url, '_blank', 'noopener');
         var ok = form.querySelector('.form-ok');
