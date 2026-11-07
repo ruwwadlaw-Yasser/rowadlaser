@@ -36,6 +36,7 @@ PAGE = {
         ("تاقات معدنية وميداليات", "Metal tags and keychains"),
     ],
     "sub_pages": [
+        {"href": "mep-identification-package.html", "name": ("باقة تعريف مشاريع MEP", "MEP identification package")},
         {"href": "signage-plates.html", "name": ("لوحات إرشادية", "Signage plates")},
         {"href": "safety-signs.html", "name": ("لوحات السلامة", "Safety signs")},
         {"href": "valve-tags.html", "name": ("تاقات المحابس", "Valve tags")},

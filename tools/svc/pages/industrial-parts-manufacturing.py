@@ -432,12 +432,12 @@ PAGE = {
                 ),
             },
             {
-                "icon": "layers",
-                "href": "contracting-metal-projects.html",
-                "h3": ("الكميات والطلبات المتكررة", "Bulk and repeat orders"),
+                "icon": "factory",
+                "href": "laser-jeddah-industrial-city.html",
+                "h3": ("لمصانع المدينة الصناعية بجدة", "For Jeddah Industrial City factories"),
                 "p": (
-                    "لتوفير مخزون من القطع التي تُستهلك دورياً بسعر أفضل للقطعة.",
-                    "To build a stock of regularly consumed parts at a better per-piece price.",
+                    "دفعات قطع إنتاج ولوحات بيانات وتاقات أصول لمصانع وورش المدينة الصناعية.",
+                    "Production part batches, data plates and asset tags for industrial-city factories and workshops.",
                 ),
             },
         ],

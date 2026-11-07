@@ -415,12 +415,12 @@ PAGE = {
                 ),
             },
             {
-                "icon": "shield",
-                "href": "metal-finishing-quality.html",
-                "h3": ("التشطيب وفحص الجودة", "Finishing and quality control"),
+                "icon": "file",
+                "href": "mep-identification-package.html",
+                "h3": ("باقة تعريف مشاريع MEP", "MEP identification package"),
                 "p": (
-                    "الفحص والتشطيب قبل كل دفعة، وهو ما يمنع رفض القطع في الموقع.",
-                    "Inspection and finishing before each batch — what stops parts being rejected on site.",
+                    "تاقات المحابس والكيابل وتسميات اللوحات ولوحات السلامة — للمشروع كله من جهة واحدة.",
+                    "Valve and cable tags, panel labels and safety signs — the whole project from one supplier.",
                 ),
             },
         ],

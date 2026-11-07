@@ -30,7 +30,7 @@ JS_V = "6"
 
 
 def esc(s):
-    return html.escape(str(s), quote=True)
+    return html.escape(html.unescape(str(s)), quote=True)
 
 
 def bi(ar, en):

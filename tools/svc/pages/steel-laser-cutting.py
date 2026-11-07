@@ -8,7 +8,7 @@ PAGE = {
     "parent": PARENT,
     "crumb": ("قص الحديد بالليزر", "Steel laser cutting"),
     "title": (
-        "قص الحديد بالليزر في جدة | صفائح الحديد الأسود — رواد الليزر",
+        "قص الحديد بالليزر في جدة | قص ليزر حديد أسود وكربوني — رواد الليزر",
         "Steel Laser Cutting in Jeddah | Mild &amp; Carbon Steel — Ruwwad Laser",
     ),
     "desc": (

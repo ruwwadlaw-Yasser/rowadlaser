@@ -8,7 +8,7 @@ PAGE = {
     "parent": PARENT,
     "crumb": ("قص الألمنيوم بالليزر", "Aluminium laser cutting"),
     "title": (
-        "قص الألمنيوم بالليزر في جدة | ألمنيوم 5052 و6061 — رواد الليزر",
+        "قص الألمنيوم بالليزر في جدة | قص ألمنيوم CNC 5052 و6061 — رواد الليزر",
         "Aluminium Laser Cutting in Jeddah | 5052 &amp; 6061 Sheet — Ruwwad Laser",
     ),
     "desc": (

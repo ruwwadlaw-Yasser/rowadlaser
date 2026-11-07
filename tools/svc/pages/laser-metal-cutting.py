@@ -5,7 +5,7 @@ PAGE = {
     "slug": "laser-metal-cutting",
     "crumb": ("قص المعادن بالليزر", "Laser metal cutting"),
     "title": (
-        "قص المعادن بالليزر في جدة | قص ليزر CNC بدقة ±0.1 مم — رواد الليزر",
+        "قص ليزر في جدة | قص المعادن بالليزر CNC للحديد والستانلس والألمنيوم — رواد الليزر",
         "Laser Metal Cutting in Jeddah | CNC Laser Cutting — Ruwwad Laser",
     ),
     "desc": (
@@ -477,6 +477,20 @@ PAGE = {
         ],
     },
     "faq": [
+        {
+            "q": ("كم سعر قص الليزر؟", "How much does laser cutting cost?"),
+            "a": (
+                "لا يوجد سعر ثابت للمتر، لأن السعر يُحسب من: نوع المعدن وسماكته، وطول مسار القص وعدد الثقوب والتفاصيل، وعدد القطع، وجاهزية ملف القص. وكلما زادت الكمية انخفض سعر القطعة الواحدة، لأن التحضير والبرمجة يتمّان مرة واحدة ونرتّب القطع على اللوح لتقليل الهدر. أرسل الملف والكمية ونرسل لك سعراً واضحاً قبل أي التزام.",
+                "There is no fixed price per metre: the price depends on the metal and thickness, the cutting length, number of holes and detail, the number of parts, and how ready the cutting file is. The larger the quantity, the lower the price per part, because setup and programming happen once and we nest the parts on the sheet to reduce scrap. Send the file and quantity and we send a clear price before any commitment.",
+            ),
+        },
+        {
+            "q": ("هل تنفّذون قص الليزر بالكميات للمصانع والمقاولين؟", "Do you laser cut in volume for factories and contractors?"),
+            "a": (
+                "نعم، وهذا محور عملنا: دفعات إنتاج من 25–50 قطعة فأكثر وطلبات متكررة، مع اعتماد قطعة العيّنة قبل تشغيل الكمية، وفحص القياسات قبل التسليم، وتسليم مرتّب حسب قائمة المشروع.",
+                "Yes, it is the core of our work: production batches of 25–50+ parts and repeat orders, with a sample part approved before the batch runs, dimensions checked before delivery, and delivery sorted to the project list.",
+            ),
+        },
         {
             "q": ("ما الفرق بين ليزر الفايبر وليزر CO2 في قص المعادن؟", "What is the difference between fibre and CO2 lasers for metal?"),
             "a": (
