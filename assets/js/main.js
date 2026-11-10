@@ -175,3 +175,56 @@
     document.querySelectorAll('[data-year]').forEach(function (el) { el.textContent = yr; });
   });
 })();
+
+/* ============================================================
+   Google Analytics 4 + تتبّع طلبات العملاء (واتساب / اتصال / نموذج)
+   ضع معرّف القياس (يبدأ بـ G-) في GA4_ID. إذا تُرك فارغاً لا يُحمَّل أي شيء.
+   ============================================================ */
+(function () {
+  'use strict';
+  var GA4_ID = ''; // مثال: 'G-ABC123XYZ'
+  if (!GA4_ID) return;
+
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', GA4_ID);
+
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  var lang = location.pathname.indexOf('/en/') === 0 ? 'en' : 'ar';
+
+  /* أي ضغطة على رابط واتساب أو اتصال أو بريد */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var type = href.indexOf('wa.me') > -1 ? 'whatsapp'
+             : href.indexOf('tel:') === 0 ? 'phone'
+             : href.indexOf('mailto:') === 0 ? 'email' : '';
+    if (!type) return;
+    send('generate_lead', {
+      method: type,
+      page_path: location.pathname,
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      language: lang
+    });
+  }, true);
+
+  /* إرسال نموذج «اطلب عرض سعر» (يفتح واتساب) */
+  document.addEventListener('submit', function (e) {
+    if (!e.target || e.target.id !== 'quote-form') return;
+    var d = new FormData(e.target);
+    send('generate_lead', {
+      method: 'quote_form',
+      page_path: location.pathname,
+      service: String(d.get('service') || '').slice(0, 60),
+      language: lang
+    });
+  }, true);
+})();
