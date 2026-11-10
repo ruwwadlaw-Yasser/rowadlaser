@@ -182,7 +182,7 @@
    ============================================================ */
 (function () {
   'use strict';
-  var GA4_ID = ''; // مثال: 'G-ABC123XYZ'
+  var GA4_ID = 'G-56GGXDFYVC';
   if (!GA4_ID) return;
 
   var s = document.createElement('script');
